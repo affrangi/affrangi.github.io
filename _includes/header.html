@@ -1,9 +1,17 @@
 
     <header>
-
       <!-- Nav Bar -->
+
+
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
-        <div class="container">
+        <!-- Header Image -->
+        {%- if site.enable_header_image -%}
+            {%- assign header_image_path = 'header.png' | prepend: 'assets/img/' -%}  
+            <div class="navbar-header-image-container collapse navbar-collapse">
+             {% include header_image.html path=header_image_path class="navbar-header-image" alt="Alejandro Frangi" cache_bust=true width=site.max_width -%}  
+            </div>
+        {% endif %}
+        <div class="top-menu container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}

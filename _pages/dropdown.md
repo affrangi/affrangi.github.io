@@ -1,13 +1,10 @@
 ---
 layout: page
-title: submenus
+title: Team
 nav: true
-nav_order: 6
+nav_order: 3
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Alumni
+      permalink: /team/alumni/
 ---

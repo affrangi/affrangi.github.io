@@ -37,7 +37,9 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
-
+  
+  font-weight: 400;
+ 
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -114,6 +116,28 @@ blockquote {
 
 // Profile
 
+
+.post-header {
+
+ .desc {
+	font-size: 1.2rem;
+ }
+
+ .address {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: roboto;
+	font-size: 1rem;
+	padding: 10px;
+	background-color: #d3d3d330 !important;
+ }
+ 
+ a {
+	font-weight: 400;
+ }
+ 
+}
+
 .profile {
   width: 100%;
 
@@ -121,7 +145,8 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
-
+	background-color: #d3d3d330 !important;
+	
     p {
       display: inline-block;
       margin: 0;
@@ -137,6 +162,7 @@ blockquote {
   margin-right: 1rem;
 }
 
+// standard (default) view
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -299,6 +325,34 @@ blockquote {
   }
 }
 
+.navbar {
+   flex-flow: column !important;
+}
+
+.top-menu {
+     display: inline-block;
+     img {
+       margin-left: auto;
+       margin-right: auto;
+     }
+}
+.navbar-header-image-container {
+   display: contents;
+   
+}
+.navbar.container {
+   display: inline-block;
+}
+
+.fixed-top2 {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
 // Social (bottom)
 
 .social {
@@ -359,21 +413,37 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  // background-color: var(--global-footer-bg-color);
+  background-image: url(/assets/img/footer_bg.jpg);
   font-size: 0.75rem;
 
   .container {
-    color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
-  }
+    display: flex;
+    color: var(--global-footer-text-color);
+    .footer-logos {
+       color: var(--global-footer-text-color);
+       float: right;
+       text-align: right;
+       margin-left: auto;
+       // margin-right: auto;
+       a {
+         // color: var(--global-footer-link-color);
+         color: var(--global-theme-color);
+         font-weight: 400;
 
-  a {
-    color: var(--global-footer-link-color);
-
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
+          &:hover {
+            color: var(--global-theme-color);
+            text-decoration: none;
+          }
+       }
+    }
+    .footer-metadata {
+       color: var(--global-footer-text-color);
+       float: left;
+       margin-left: auto;
+       margin-right: auto;
     }
   }
 }
@@ -989,6 +1059,14 @@ nav[data-toggle="toc"] {
     height: 0;
     top: 0;
   }
+  
+  /* responsive contact sites in contact page */ 
+  
+  .contact_place {
+	width: 100% !important;
+	margin-top: 20px !important; 
+   }
+
 }
 
 /* Tips, warnings, and dangers blockquotes */
@@ -1063,4 +1141,48 @@ nav[data-toggle="toc"] {
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
+}
+
+
+// Articles
+
+article {
+	text-align: justify;
+}
+
+// Contact
+
+.contact_place_container {
+	/* display: contents; */
+	display: block;
+	text-align: center;
+}
+
+.contact_place {
+	/* width: 45%; */
+	padding-left: 10px;
+	margin-left: auto;
+	padding-right: 10px;
+	margin-right: auto;
+	display: inline-block;
+}
+
+.contact_place_image {
+	margin: 10px auto 10px auto;
+}
+
+.contact_place_text {}
+
+.contact_place_text1 { 
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.contact_place_text2 {
+	font-size: 1.2rem;
+}
+.contact_place_text3 {
+	font-size: 1.2rem;
+}
+.contact_place_text4 {
+	font-size: 1rem;
 }
