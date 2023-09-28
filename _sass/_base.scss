@@ -1153,6 +1153,7 @@ article {
 // Contact
 
 .contact_place_container {
+    font-family: roboto;
 	/* display: contents; */
 	display: block;
 	text-align: center;
@@ -1174,15 +1175,20 @@ article {
 .contact_place_text {}
 
 .contact_place_text1 { 
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .contact_place_text2 {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .contact_place_text3 {
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .contact_place_text4 {
 	font-size: 1rem;
+}
+.social-icons {
+    i  {
+       font-size: 2rem;
+       }
 }

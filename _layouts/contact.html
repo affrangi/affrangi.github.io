@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!-- contact.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <p class="post-description">{{ page.description }}</p>
+          </header>
+
+          <article>
+            {{ content }}
+          </article>
+
+          {%- if page.related_publications != null and page.related_publications.size > 0 -%}
+          {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+          <h2>References</h2>
+          <div class="publications">
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
+          </div>
+          {%- endif %}
+
+          {%- if site.giscus.repo and page.giscus_comments -%}
+            {% include giscus.html %}
+          {%- endif -%}
+		  
+          <!-- Social -->
+          {%- if page.social %}
+		    <br>
+		    <br>
+            <div class="social">
+              <div class="contact-icons">
+                {% include social_contact.html %}
+              </div>
+
+            <br>
+            <br>
+
+            </div>
+          {%- endif %}
+        </div>
