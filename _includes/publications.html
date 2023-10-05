@@ -1,0 +1,16 @@
+<!-- _includes/publications.html -->
+
+
+<div class="grid-sizer"></div>
+<div class="grid-item">
+    <a href="{{ publication.url | relative_url }}">
+      <div class="card hoverable">
+        <div class="card-body">
+          <!-- <h2 class="card-title text-lowercase">{{ publication.title }}</h2> -->
+          <p class="card-text">{{ publication.description }}</p>
+          <p class="card-text publication-date"><span class="publication-date-title">Publication date:</span> {{ publication.date | date: "%b %d, %Y"  }}</p>
+        </div>
+      </div>
+    </a>
+</div>
+<br>

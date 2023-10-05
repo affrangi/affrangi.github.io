@@ -1192,3 +1192,90 @@ article {
        font-size: 2rem;
        }
 }
+
+
+// Bootstrap fixes 
+
+.collapse {
+  display: none;
+  &.show {
+    display: block;
+  }
+}
+
+.year_divider {
+	font-weight: bold;
+	border-bottom: 1px solid var(--global-theme-color);
+	margin: 0px 10px 20px 0px;
+	font-size: 1rem;
+	color: var(--global-theme-color);
+	
+}
+
+h3.title {
+	font-size: 1.2rem !important;
+	background-color: #8080802e;
+    padding: 10px 0px 10px 0px;
+    margin: -10px -10px 10px -10px;
+    text-align: center;
+	a {
+		span {
+		font-weight: 500;
+		font-size: 1.2rem !important;
+	    }
+	}
+}
+
+div.card-body {
+	span, a.link person {
+		font-size: 0.85rem !important;
+	}
+	
+	span.journal {
+		a {
+			span {
+				font-weight: bold;
+			}
+		}
+	}
+	
+	a.person {
+		font-weight: bold;
+	}
+	
+	em {
+		font-size: 0.85rem !important;
+		font-weight: bold !important;
+	}
+	p.type {
+		margin-top: 10px;
+		margin-bottom: 10px !important;
+		color: var(--global-theme-color);
+		padding-bottom: 5px;
+		border-bottom: 1px solid #80808054;
+	}
+}
+
+.accordion {
+	--bs-accordion-active-bg: #b509ac2e !important;
+	--bs-accordion-btn-focus-border-color: #b509ac2e !important;
+	--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #b509ac2e !important;
+}
+
+.publication-date-title {
+	font-weight: bold !important; 
+}
+
+.publication-date {
+	text-align: right !important;
+	color: black; 
+}
+
+.category-items-count {
+	margin-left: 10px;
+    font-size: .9rem;
+}
+
+.rendering_researchoutput {
+	font-size: 0.85rem !important;
+}

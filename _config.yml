@@ -56,8 +56,6 @@ footer_fixed: true
 # Dimensions
 max_width: 900px
 
-# TODO: add layout settings (single page vs. multi-page)
-
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
@@ -159,9 +157,14 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+
+# external_sources:
+#   - name: Alex Publications
+#     rss_url: https://research.manchester.ac.uk/en/persons/alejandro-frangi-2/publications/?format=rss
+
+publications_sources:
+  - name: Manchester University
+    rss_url: https://research.manchester.ac.uk/en/persons/alejandro-frangi-2/publications/?format=rss
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -176,7 +179,24 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  publications:
+    output: true
+    permalink: /pubs/:path/
+    
+# -----------------------------------------------------------------------------
+# Publications settings
+# -----------------------------------------------------------------------------
+publications_categories: ['Articles', 'Preprints', 'Patents', 'Conference Contributions', 'Chapters', 'Meeting Abstracts', 'Doctoral Thesises', 'Other'] 
 
+# Next, the possible categories to be displayed on the Publications page:
+#
+# publications_categories: ['Articles', 'Letters', 'Review Articles', 'Chapters', 'Comments/Debates', 
+#                          'Conference Contributions', 'Conference Articles', 'Posters', 'Editorials', 'Meeting Abstracts', 
+#                          'Short Surveys', 'Preprints', 'Working Papers', 'Web Publications/sites', 'Anthologies'
+#                          'Patents', 'Entries for encyclopedia/dictionary', 'Special Issues', 'Data sets/Databases',
+#                          'Commissioned Reports', 'Books', 'Other Contributions', 'Doctoral Thesises', 'Other' ] 
+   
+   
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -381,10 +401,10 @@ academicons:
   version: "1.9.1"
   integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
 bootstrap:
-  version: "4.6.1"
+  version: "5.3.2"
   integrity:
-    css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
+    css: "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    js: "sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 bootstrap-table:
   version: "1.21.4"
 fontawesome:
