@@ -223,9 +223,19 @@ blockquote {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
   }
+  
 }
 
+
+
 .navbar.navbar-light {
+
+  #light-toggle {
+    #light-toggle {
+		color: var(--global-text-color-light);
+	}
+  }
+
   a {
     &:hover {
       text-decoration: none;
@@ -1278,4 +1288,9 @@ div.card-body {
 
 .rendering_researchoutput {
 	font-size: 0.85rem !important;
+}
+
+#light-toggle {
+	background-color: transparent !important;
+    border: none !important;
 }
