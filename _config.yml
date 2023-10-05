@@ -181,7 +181,7 @@ collections:
     permalink: /projects/:path/
   publications:
     output: true
-    permalink: /pubs/:path/
+    permalink: /publications/:path/
     
 # -----------------------------------------------------------------------------
 # Publications settings
