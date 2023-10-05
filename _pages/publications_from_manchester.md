@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Publications
-permalink: /pubs/
+permalink: /publications/
 description: 
 nav: true
-nav_order: 7
-display_categories: [work, fun]
+nav_order: 5
 ---
 
 {%- assign categs = site.publications_categories  -%}
