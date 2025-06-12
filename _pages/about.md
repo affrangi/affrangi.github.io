@@ -21,13 +21,13 @@ social: true  # includes social icons at the bottom of the page
 
 Welcome! I am a PhD candidate at <a href='https://ifisc.uib-csic.es/en/'>IFISC 
 (CSIC-UIB)</a> in Palma de Mallorca, Spain.
-Originally specialized in Nonlinear Physics, Complex Systems and Quantum Field Theory,
-I am interested in the study of transport, especially active mobility modes, and 
-sustainability.
-Right now, I am investigating information transfer using information theory measures
-and estimators.
+Originally trained in Nonlinear Physics, Complex Systems, and Quantum Field Theory,
+I now focus on transport systems—especially active mobility and sustainability.
+My current research investigates information transfer in complex networks using
+information theory measures and estimators.
 
-As I studied both Physics and Computer Science, my methods are mostly computational.
+With a background in both Physics and Computer Science,
+I primarily use computational and data-driven methods in my work.
 My undergrad theses were on <i>Deep Inelastic $$e^±p$$ Scattering with Boson Exchange 
 and Interference</i>, then <i>Fault Injection for Robustness Testing of Satellite 
 On-Board Image Processing</i> (at <a href='https://www.dlr.de/en/'>the German Aerospace
@@ -43,6 +43,8 @@ Furthermore, I have assisted with a research project at
 <a href='https://plus.ethz.ch/'>PLUS (ETH Zurich)</a> in context of
 <a href='https://www.valpar.ch/index_en.php?page=home_en'>ValPar.ch</a>, exploring 
 the impact of future climate scenarios on biodiversity and ecosystem services in
-Switzerland (submitted).
+Switzerland (manuscript submitted).
+
+If you are open to collaborate or have any questions, feel free to reach out!
 
 <a rel="me" href="https://datasci.social/@cbueth"></a>
