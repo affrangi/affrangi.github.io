@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Network Scientist | Computational Physicist
+subtitle: Network Scientist | Software Engineer | Physicist
 
 profile:
   align: right
