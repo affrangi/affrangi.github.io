@@ -3,28 +3,30 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Carlson
-middle_name: M.
-last_name: Büth
-email: carlson@cbueth.de
+first_name: Alejandro
+middle_name: F.
+last_name: Frangi
+email: a.frangi@manchester.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Portfolio of Carlson M. Büth, PhD candidate at IFISC (CSIC-UIB) in Palma de Mallorca, Spain.
+  Personal Webpage of Alejandro F. Frangi, FREng FIEEE.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+  with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: >
-  Carlson Büth, IFISC, CSIC, UIB, Palma de Mallorca, Spain, Physics, Complex Systems,
-  Network Science, Urban Mobility, Active Mobility, Sustainable Transport
+  Alejandro Frangi, FREng, FIEEE, University of Manchester, Manchester,
+  Computational Medicine, Christabel Pankhurst, Insilico Medicine,
+  Health Technology.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓️
 
-url: https://cbueth.de # the base hostname & protocol for your site
+url: https://affrangi.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: false # set to false to disable the back to top button
+back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -34,7 +36,7 @@ back_to_top: false # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -52,7 +54,7 @@ rss_icon: false # set to true to display rss icon in the header
 
 navbar_fixed: true
 footer_fixed: false
-search_enabled: false
+search_enabled: true
 socials_in_search: true
 bib_search: true
 
@@ -68,7 +70,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: assets/img/img_painted.png
+og_image: assets/img/profile.jpg
 # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -82,44 +84,44 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: cbueth # your GitHub user name
+github_username: affrangi # your GitHub user name
 gitlab_username: # your GitLab user name
-ieee_id: # your ieeexplore.ieee.org/author/id
+ieee_id: 37273295500 # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: cbueth # your LinkedIn user name
+linkedin_username: alejandro-frangi # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: 0000-0003-2298-8438 # your ORCID ID
+orcid_id: 0000-0002-2675-528X # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
-research_gate_profile: Carlson-Bueth # your profile on ResearchGate
-scholar_userid: qvpWpncAAAAJ # your Google Scholar ID
+research_gate_profile: Alejandro-Frangi # your profile on ResearchGate
+scholar_userid: 9fGrB0sAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
-semanticscholar_id: # your Semantic Scholar ID
+semanticscholar_id: Alejandro-F-Frangi/1681129 # your Semantic Scholar ID
 spotify_id: # your spotify id
 stackoverflow_id: # your stackoverflow id
 telegram_username: # your Telegram user name
 unsplash_id: # your unsplash id
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-wikidata_id: # your wikidata id
+wikidata_id: Q29349052 # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: # your X handle
+x_username: affrangi # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  Just <a href="mailto:carlson@cbueth.de">
-  send me an email 
-  </a>
-  if you want to get in touch.
+contact_note: #>
+  # Just <a href="mailto:carlson@cbueth.de">
+  # send me an email 
+  # </a>
+  # if you want to get in touch.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -229,7 +231,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: false
+      line_numbers: true
       start_line: 1
 
 # Includes & excludes
@@ -319,8 +321,17 @@ display_categories: [ "external-services" ] # these categories will be displayed
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [ "Büth" ]
-  first_name: [ "Carlson Moses", "C. M." ]
+  last_name: [ "Frangi" ]
+  first_name: [
+    "A. F.", 
+    "Alejandro Federico", 
+    "Alejandro F.", 
+    "Alejandro F", 
+    "Alejandro", 
+    "A F", 
+    "A.", 
+    "A", 
+  ] 
 
   style: apa
   locale: en
@@ -435,7 +446,7 @@ enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
-enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
+enable_tooltips: true # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
