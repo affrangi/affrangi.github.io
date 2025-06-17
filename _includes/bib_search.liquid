@@ -1,4 +1,25 @@
 {% if site.bib_search %}
   <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
-  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+  <script src="{{ '/assets/js/bibexport.js' | relative_url | bust_file_cache }}" type="module"></script>
+  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter...">
+  <div class="horizontal-scroll-container" id="horizontal-scroll-container">
+    {% for category in page.categories %}
+    <div
+      class="category-badge {% if category == "journals" %}selected{% endif %}"
+      data-name="{{category}}"
+    >{{category}}</div>
+    {% endfor %}
+  </div>
+  <div class="download-bib-buttons">
+    <div
+      class="download"
+      title="Export filtered results to .txt"
+      onclick="exportBib2Txt()"
+    >.txt</div>
+    <div
+      class="download"
+      title="Export filtered results to .bib"
+      onclick="exportBib()"
+    >.bib</div>
+  </div>
 {% endif %}

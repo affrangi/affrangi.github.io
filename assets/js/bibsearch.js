@@ -1,19 +1,61 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+  // Add event listener to each category badge to toggle selection
+  const bibsearchInput = document.getElementById("bibsearch")
+  let selectedCategories = [ "journals" ];
+  const categoryBadges = document.querySelectorAll(".publications .category-badge");
+  categoryBadges.forEach((badge) => {
+    // Ensure only journals badge is selected by default
+    if (badge.getAttribute("data-name") === "journals") {
+      if (!badge.classList.contains("selected")) {
+        badge.classList.add("selected"); 
+      }
+    } else {
+      if (badge.classList.contains("selected")) {
+        badge.classList.remove("selected"); 
+      }
+    }
+
+
+    // Add click event listener to each badge
+    badge.addEventListener("click", function (event) {
+      event.stopPropagation(); // Prevent the click from bubbling up to the parent elements
+      badge.classList.toggle("selected");
+      const category = badge.getAttribute("data-name");
+      if (badge.classList.contains("selected")) {
+        selectedCategories.push(category);
+      } else {
+        selectedCategories = selectedCategories.filter((c) => c !== category);
+      }
+      
+      filterItems(bibsearchInput.value.toLowerCase());
+    });
+  });
+  
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
+    
+    // Hide items that do not match the category selection
+    let itemCategory = "";
+    document.querySelectorAll(".bibliography > li").forEach((element, index) => {
+      itemCategory = element.querySelector(".row").getAttribute("data-category")
+      if (!selectedCategories.includes(itemCategory)) {
+        element.classList.add("unloaded");
+      }
+    });
 
     // highlight-search-term
     if (CSS.highlights) {
       const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
-      if (nonMatchingElements == null) {
-        return;
+      if (nonMatchingElements) {
+        nonMatchingElements.forEach((element) => {
+          if (!element.classList.contains("unloaded")) {
+            element.classList.add("unloaded");
+          }
+        });
       }
-      nonMatchingElements.forEach((element) => {
-        element.classList.add("unloaded");
-      });
     } else {
       // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
       document.querySelectorAll(".bibliography > li").forEach((element, index) => {
@@ -58,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Sensitive search. Only start searching if there's been no input for 300 ms
   let timeoutId;
-  document.getElementById("bibsearch").addEventListener("input", function () {
+  bibsearchInput.addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
     timeoutId = setTimeout(filterItems(searchTerm), 300);
