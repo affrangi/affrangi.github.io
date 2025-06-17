@@ -1,17 +1,22 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle: Network Scientist | Software Engineer | Physicist
+subtitle: >
+  Bicentenary Turing Chair in Computational Medicine | 
+  Royal Academy of Engineering Chair in Emerging Technologies |
+  Director, The Christabel Pankhurst Institute |
+  Lead, NIHR Manchester Biomedical Research Centre, Digital Infrastructure
+
 
 profile:
   align: right
-  image: img_painted.png
-  image_circular: false # crops the image to make it circular
+  image: profile.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-#    <p>555 your office number</p>
-#    <p>123 your address street</p>
-#    <p>Your City, State 12345</p>
+    <p>Rm G530, Stopford Building, Oxford Road, University of Manchester, M13 9PL Manchester</p>
+    <p></p>
+    <p>Rm G21, Kilburn Building, Oxford Road, University of Manchester, M13 9PL Manchester</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,32 +24,33 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! I am a PhD candidate at <a href='https://ifisc.uib-csic.es/en/'>IFISC 
-(CSIC-UIB)</a> in Palma de Mallorca, Spain.
-Originally trained in Nonlinear Physics, Complex Systems, and Quantum Field Theory,
-I now focus on transport systems—especially active mobility and sustainability.
-My current research investigates information transfer in complex networks using
-information theory measures and estimators.
+Professor <b>Alejandro Frangi FREng FIEEE</b>, a leader in 
+computational medicine and in silico trials, holds the <em>Bicentenary 
+Turing Chair in Computational Medicine</em> at the <em>University of 
+Manchester</em>. As <em>Director of the Christabel Pankhurst 
+Institute</em>, he accelerates health tech innovation translation in 
+Greater Manchester. 
 
-With a background in both Physics and Computer Science,
-I primarily use computational and data-driven methods in my work.
-My undergrad theses were on <i>Deep Inelastic $$e^±p$$ Scattering with Boson Exchange 
-and Interference</i>, then <i>Fault Injection for Robustness Testing of Satellite 
-On-Board Image Processing</i> (at <a href='https://www.dlr.de/en/'>the German Aerospace
-Center</a>), and finally <i>Analyzing the Network Effects of Computationally 
-Generated Low Traffic Neighborhoods</i> (at <a href='https://nerds.itu.dk/'>NERDS,
-ITU Copenhagen</a>).
+Prof Frangi leads the <a href="https://www.insilicouk.org">InSilicoUK Pro 
+Innovation Regulations Network</a>, advancing in silico medicine
+nationally. His research focuses on <em>AI and in silico technologies</em>, 
+fostering collaboration between academia, industry, and regulators to
+drive healthcare innovation. He works at the intersection of 
+<em>computational modelling</em> and <em>medical science</em> and aims
+to revolutionise patient care through cutting-edge technologies and
+interdisciplinary approaches. 
 
-Inbetween, I interned at the <a href='https://www.tudelft.nl/en/tpm/'>Faculty of
-Technology, Policy and Management</a> at <a href='https://www.tudelft.nl/en/'>
-TU Delft, The Netherlands</a>, to gain experience in the field of active mobility
-and transport safety.
-Furthermore, I have assisted with a research project at
-<a href='https://plus.ethz.ch/'>PLUS (ETH Zurich)</a> in context of
-<a href='https://www.valpar.ch/index_en.php?page=home_en'>ValPar.ch</a>, exploring 
-the impact of future climate scenarios on biodiversity and ecosystem services in
-Switzerland (manuscript submitted).
+Prof Frangi is also committed to disseminating the 
+benefits of in silico technologies to the lay audience through his
+recently launched podcast, <a href="https://insilicouk.podbean.com">In Silico 
+Trials, Real Impacts</a>.
 
-If you are open to collaborate or have any questions, feel free to reach out!
+Prof Frangi's <b>main research interests lie</b> at the crossroads of 
+<em>medical image analysis</em> and <em>modelling</em> with an 
+emphasis on <em>machine learning</em> (phenomenological models) and 
+<em>computational physiology</em> (mechanistic models). He is 
+particularly interested in <em>statistical methods applied to 
+population imaging and in silico clinical trials</em>.
+His highly interdisciplinary work has been translated into the areas
+of cardiovascular, musculoskeletal and neurosciences.
 
-<a rel="me" href="https://datasci.social/@cbueth"></a>
