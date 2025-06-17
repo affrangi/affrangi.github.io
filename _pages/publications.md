@@ -1,20 +1,22 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: publications by categories in reversed chronological order.
+title: publications
+description: Publications by categories in reversed chronological order.
 nav: true
 nav_order: 2
+tabs: true
+categories: [journals, books, chapters, reports, patents, outreach]
 ---
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
 <div class="publications">
+
+<!-- Bibsearch Feature -->
+{% include bib_search.liquid %}
 
 {% bibliography %}
 
 </div>
+
