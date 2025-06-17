@@ -1,7 +1,7 @@
-github_users:
-  - cbueth
+github_users: #
+  # - affrangi
 
 repo_description_lines_max: 2
 
-github_repos:
-  - NERDSITU/superblockify
+github_repos: #
+  # - user/repo-name
