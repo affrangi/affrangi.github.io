@@ -333,6 +333,10 @@ scholar:
     "A.", 
     "A", 
   ] 
+  # Note: the first entries in these lists `last_name` and
+  # `first_name` are the ones that will be used to display
+  # the author name in the bibliography, to ensure a consistent
+  # author name across all publications. 
 
   style: apa
   locale: en

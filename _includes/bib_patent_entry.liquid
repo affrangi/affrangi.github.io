@@ -1,0 +1,50 @@
+<div class="bib-citation-txt">
+    <!-- Author(s) -->
+    {% include bib_author_list.liquid authors=entry.author_array %}
+    <!-- End Author(s) -->
+    
+    <!-- Year -->
+    <span>({{ entry.year }}).</span>
+    <!-- End Year -->
+    
+    <!-- Patent Title -->
+    {% assign title = entry.title %}
+    {% if entry.subtitle %}
+        {% assign title = title | append: ': ' | append: entry.subtitle %}
+    {% endif %}
+    <em>{{ title }}.</em>
+    <!-- End Patent Title -->
+    
+    <!-- Patent Type and Number -->
+    <span>{{ entry.type }} {{ entry.number }}.</span>
+    <!-- End Patent Type and Number -->
+
+    <!-- Organization Title -->
+    <em>{{- entry.location -}}.</em>
+    <!-- End Organization Title -->
+
+    <!-- URL -->
+    {% if entry.url %}
+    <span>Available at: <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.url }}</a>.</span>
+    {% endif %}
+    <!-- End URL -->
+</div>
+
+<div class="periodical">
+    <em class="muted">
+        {% if entry.series %}
+            {{ entry.series | strip | prepend: 'Series: ' | append: '.' }}
+        {% endif %}
+        {% if entry.volume %}
+            {{ entry.volume | strip | prepend: 'Volume: ' | append: '.' }}
+        {% endif %}
+    </em>
+</div>
+
+<div class="periodical">
+    {% if entry.note %}
+    <span class="muted">
+        {{ entry.note | append:  '.' }}
+    </span>
+    {% endif %}
+</div>

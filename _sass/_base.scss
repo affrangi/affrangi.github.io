@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+.muted {
+  color: var(--global-text-color-light);
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -830,6 +834,74 @@ footer.sticky-bottom {
       border-color: var(--global-highlight-color);
     }
   }
+
+  div.bibsearch-categories-container {
+
+    overflow-x: auto;
+
+    div.bibsearch-category-container {
+      display: inline;
+    }
+
+  }
+
+  div.horizontal-scroll-container {
+    display: flex;
+    flex-wrap: no-wrap;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+
+    div.category-badge {
+      padding-right: 6px;
+      background-color: var(--tag-unselected-bg-color);
+      cursor: pointer;
+      padding-right: .6em;
+      padding-left: .6em;
+      border-radius: 10rem;
+      box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+      margin-right: 6px;
+      user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -o-user-select: none;
+    }
+
+    div.category-badge.selected {
+      color: white;
+      background-color: var(--tag-selected-bg-color);
+    }
+  }
+
+  div.horizontal-scroll-container::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  div.download-bib-buttons {
+    display: flex;
+    padding-left: 3px;
+
+    div.download {
+      background-color: var(--global-newsletter-bg-color);
+      cursor: pointer;
+      padding: 1px 6px;
+      border-radius: 10rem;
+      padding-right: 10px;
+      margin-right: 10px;
+      color: var(--global-newsletter-text-color);
+      box-shadow: rgba(0,0,0,.1) 0px 0px 10px;
+    }
+  }
+
 }
 
 // Rouge Color Customization
@@ -1163,14 +1235,13 @@ ninja-keys::part(ninja-input-wrapper) {
 .bibsearch-form-input {
   color: var(--global-newsletter-text-color);
   background: var(--global-newsletter-bg-color);
-  border: 1px solid var(--global-newsletter-text-color);
+  border: 0px;
   outline: none;
-  margin: 0px 10px 0px 0px;
+  margin: 0px;
   width: 100%;
-  max-width: 350px;
   min-width: 100px;
   box-sizing: border-box;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
+  box-shadow: rgba(0,0,0,.1) 0px 0px 10px;
   border-radius: 6px;
   padding: 8px 12px;
 }

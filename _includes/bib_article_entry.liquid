@@ -1,0 +1,55 @@
+<div class="bib-citation-txt">
+    <!-- Author(s) -->
+    {% include bib_author_list.liquid authors=entry.author_array %}
+    <!-- End Author(s) -->
+    
+    <!-- Year -->
+    <span>({{ entry.year }}).</span>
+    <!-- End Year -->
+    
+    <!-- Article Title -->
+    <span>{{ entry.title }}.</span>
+    <!-- End Article Title -->
+
+    <!-- Journal Info -->
+    {% assign journal_info = entry.journal %}
+    {% if entry.volume %}
+        {% assign journal_info = journal_info | append: ', Vol. ' | append: entry.volume %}
+    {% endif %}
+    {% if entry.number %}
+        {% assign journal_info = journal_info | append: ' (nº ' | append: entry.number | append: ')' %}
+    {% endif %}
+    {% if entry.pages %}
+        {% assign journal_info = journal_info | append: ', pp. ' | append: entry.pages | append: '' %}
+    {% endif %}
+    <em>{{ journal_info }}.</em>
+    <!-- End Journal Info -->
+    
+    <!-- DOI -->
+    {% if entry.doi %}
+    <span>DOI: <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer">{{ entry.doi }}</a>.</span>
+    {% endif %} 
+    <!-- End DOI -->
+
+    <!-- URL -->
+    {% if entry.url %}
+    <span>Available at: <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.url }}</a>.</span>
+    {% endif %}
+    <!-- End URL -->
+</div>
+
+<div class="periodical">
+    {% if entry.keyword %}
+    <em class="muted">
+        {{ entry.keyword | strip | prepend: 'Keyword: ' | append: '.' }}
+    </em>
+    {% endif %}
+</div>
+
+<div class="periodical">
+    {% if entry.note %}
+    <span class="muted">
+        {{ entry.note | append:  '.' }}
+    </span>
+    {% endif %}
+</div>

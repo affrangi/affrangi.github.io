@@ -1,0 +1,70 @@
+<div class="bib-citation-txt">
+    <!-- Editor(s) -->
+    {% assign editor_array_size = entry.editor_array | size %}
+    {% if editor_array_size > 0 %}
+        {% include bib_author_list.liquid authors=entry.editor_array %}
+        {% if editor_array_size > 1 %}(Eds.).
+            {% else %}(Ed.).
+        {% endif %}
+    {% endif %}
+    <!-- End Editor(s) -->
+    
+    <!-- Author(s) -->
+    {% assign author_array_size = entry.author_array | size %}
+    {% if author_array_size > 0 %}
+    {% include bib_author_list.liquid authors=entry.author_array %}
+    {% endif %}
+    <!-- End Author(s) -->
+    
+    <!-- Year -->
+    <span>({{ entry.year }}).</span>
+    <!-- End Year -->
+    
+    <!-- Title -->
+    {% assign title = entry.title %}
+    {% if entry.subtitle %}
+        {% assign title = title | append: ': ' | append: entry.subtitle %}
+    {% endif %}
+    <em>{{ title }}.</em>
+    <!-- End Title -->
+
+    <!-- Edition -->
+    {% if entry.edition %}
+    <span>({{ entry.edition }} ed.).</span>
+    {% endif %}
+    <!-- End Edition -->
+
+    <!-- Location and Publisher -->
+    {% assign loc_and_pub = entry.location %}
+    {% if entry.location and entry.publisher %}
+    {% assign loc_and_pub = loc_and_pub |  append: ': ' | append: entry.publisher %}
+    {% elsif entry.publisher %}
+    {% assign loc_and_pub = entry.publisher %}
+    {% endif %}
+    {% if entry.location or entry.publisher %}
+    <span>{{ loc_and_pub }}.</span>
+    {% endif %}
+    <!-- End Location and Publisher -->
+</div>
+
+<div class="periodical">
+    <em class="muted">
+        {% if entry.isbn %}
+            {{ entry.isbn | strip | prepend: 'ISBN: ' | append: '.' }}
+        {% endif %}
+        {% if entry.series %}
+            {{ entry.series | strip | prepend: 'Series: ' | append: '.' }}
+        {% endif %}
+        {% if entry.volume %}
+            {{ entry.volume | strip | prepend: 'Volume: ' | append: '.' }}
+        {% endif %}
+    </em>
+</div>
+
+<div class="periodical">
+    {% if entry.note %}
+    <span class="muted">
+        {{ entry.note | append:  '.' }}
+    </span>
+    {% endif %}
+</div>

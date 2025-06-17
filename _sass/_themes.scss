@@ -35,6 +35,9 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  --tag-unselected-bg-color: #{$tag-unselected-bg-color-light};
+  --tag-selected-bg-color: var(--global-theme-color);
+
   #light-toggle-system {
     padding-left: 10px;
     padding-top: 12px;
@@ -83,8 +86,8 @@ html[data-theme="dark"] {
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(#{red($white-color)}, #{green($white-color)}, #{blue($white-color)}, 0.5);
   --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-newsletter-bg-color: #2e2e2e;
+  --global-newsletter-text-color: #fff;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -98,6 +101,9 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+
+  --tag-unselected-bg-color: #{$tag-unselected-bg-color-dark};
+  --tag-selected-bg-color: var(--global-theme-color);
 
   .repo-img-light {
     display: none;

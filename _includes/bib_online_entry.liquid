@@ -1,0 +1,59 @@
+<div class="bib-citation-txt">
+    <!-- Author(s) -->
+    {% include bib_author_list.liquid authors=entry.author_array %}
+    <!-- End Author(s) -->
+    
+    <!-- Year -->
+    <span>({{ entry.year }}).</span>
+    <!-- End Year -->
+    
+    <!-- Article Title -->
+    <em>{{ entry.title }}.</em>
+    <!-- End Article Title -->
+
+    <!-- Institution -->
+    {% if entry.institution %}
+    <span>{{ entry.institution }}.</span>
+    {% endif %}
+    <!-- End Institution -->
+
+    <!-- Organization -->
+    {% if entry.organization %}
+    <span>{{ entry.organization }}.</span>
+    {% endif %}
+    <!-- End Organization-->
+
+    <!-- Publisher -->
+    {% if entry.publisher %}
+    <span>{{ entry.publisher }}.</span>
+    {% endif %}
+    <!-- End Publisher-->
+
+    <!-- Event -->
+    {% if entry.eventname %}
+    <span>{{ entry.eventname }}.</span>
+    {% endif %}
+    <!-- End Event -->
+
+    <!-- URL -->
+    {% if entry.url %}
+    <span>Available at: <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.url }}</a>.</span>
+    {% endif %}
+    <!-- End URL -->
+</div>
+
+<div class="periodical">
+    {% if entry.addendum %}
+    <em class="muted">
+        {{ entry.addendum | append: '.' }}
+    </em>
+    {% endif %}
+</div>
+
+<div class="periodical">
+    {% if entry.note %}
+    <span class="muted">
+        {{ entry.note | append:  '.' }}
+    </span>
+    {% endif %}
+</div>
