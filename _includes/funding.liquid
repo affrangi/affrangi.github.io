@@ -1,0 +1,29 @@
+<div class="funding-container">
+  <script src="{{ '/assets/js/readmore.js' | relative_url | bust_file_cache }}" type="module"></script>
+  {%  include fund_search.liquid %}
+
+  {% assign funding = site.data.funding.funding | sort: 'startDate' | reverse %} 
+
+  {% assign startYears = "" %}
+  {% for fund in funding %}
+    {% assign startYear = fund.startDate | split: '-' | first %}
+    {% unless startYears contains startYear %}
+      {% assign startYears = startYears | append: startYear | append: ',' %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign startYears = startYears | replace_last: ',', '' | split: ',' | sort %}
+  {% assign startYears = startYears | reverse %}
+
+  {% for year in startYears %}
+    <h2 class="funding-year">{{year}}</h2> 
+    <ol class="funding">
+      {% for fund in funding %}
+        {% assign startYear = fund.startDate | split: '-' | first %}
+        {% if year == startYear %}
+          {% include funding_details.liquid funding=fund %}
+        {% endif %}
+      {% endfor %}
+    </ol>
+  {% endfor %}
+</div>

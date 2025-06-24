@@ -1,0 +1,4 @@
+{% if site.bib_search %}
+  <script src="{{ '/assets/js/fundsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
+  <input type="text" id="fundsearch" spellcheck="false" autocomplete="off" class="search search-form-input" placeholder="Type to filter...">
+{% endif %}

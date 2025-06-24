@@ -1,0 +1,38 @@
+<div class="card h-100 hoverable">
+  {% if include.funding.img %}
+    {% assign img_path = include.funding.img | prepend: '/assets/img/funding/' %}
+    {%
+      include figure.liquid
+      loading="eager"
+      path=img_path
+      sizes = "250px"
+      alt="funding thumbnail"
+      class="card-img-top"
+      %}
+  {% endif %}
+  <div class="card-body">
+    <h2 class="card-title">{{ include.funding.title }}</h2>
+    <p class="card-subtitle"><em>{{ include.funding.subtitle }}</em></p>
+    <ul class="card-text">
+      {% for desc in include.funding.description %}
+      <li>{{ desc }}</li>
+      {% endfor %}
+    </ul>
+    <div class="row ml-1 mr-1 p-0">
+      {% if include.funding.startDate and include.funding.startDate != '' %}
+        {% assign startDate = include.funding.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+        {% assign endDate = include.funding.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
+        {% if endDate != startDate %}
+        {% assign date = startDate | append: " - " | append: endDate %}
+        {% else %}
+        {% assign date = startDate %}
+        {% endif %}
+      {% else %}
+        {% assign date = null %}
+      {% endif %}
+      {% if date %}
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+      {% endif %}
+    </div>
+  </div>
+</div>

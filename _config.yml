@@ -655,6 +655,8 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+  - data: funding
+    json: assets/json/funding.json # it can also be an url
 jsonresume:
   - basics
   - work

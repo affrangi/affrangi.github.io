@@ -1,0 +1,55 @@
+<li class="funding-item col">
+    <div class="card h-100 hoverable">
+      <div class="row no-gutters">
+        {% if include.funding.img != "" %}
+          {% assign img_path = include.funding.img | prepend: '/assets/img/funding/' %}
+          <div class="col-md-6">
+            <img 
+              src="{{ img_path }}" 
+              loading="eager" 
+              alt="funding thumbnail"
+              class="funding-thumbnail"
+            />
+          </div>
+        {% endif %}
+        <div class="{% if include.funding.img != "" %}col-md-6{% else %}col-md-12{% endif %}">
+          <div class="card-body">
+            <h3 class="card-title">{{ include.funding.title }}</h3>
+            <div class="row p-0 funding-date-and-institution">
+              {% if include.funding.startDate and include.funding.startDate != '' %}
+                {% assign startDate = include.funding.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+                {% assign endDate = include.funding.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
+                {% if endDate != startDate %}
+                  {% assign date = startDate | append: " - " | append: endDate %}
+                  {% else %}
+                  {% assign date = startDate %}
+                {% endif %}
+              {% else %}
+              {% assign date = null %}
+            {% endif %}
+            {% if date %}
+              <span class="date-badge font-weight-bold text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+            {% endif %}
+            <p class="card-institution">{{ include.funding.institution }}</p>
+            </div>
+            <p class="card-subtitle"><em>{{ include.funding.subtitle }}</em></p>
+            <ul class="card-text readmore" data-max-height="200">
+              {% for desc in include.funding.description %}
+              <li>{{ desc }}</li>
+              {% endfor %}
+            </ul>
+            {% if include.funding.logo != "" %}
+            {% assign logo_path = include.funding.logo | prepend: '/assets/img/logos/' %}
+            <img 
+              src="{{ logo_path }}" 
+              loading="eager" 
+              alt="funding logo"
+              class="logo"
+            />
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+</li>
+

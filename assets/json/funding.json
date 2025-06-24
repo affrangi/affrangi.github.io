@@ -1,0 +1,639 @@
+{
+    "funding": [
+        {
+            "subtitle": "MRC Prosperity Partnerships: Advanced Therapies Safety and Toxicity, Co-Investigator",
+            "title": "RISE— Reducing Immune Stress from Excess Cytokine Release in Advanced Therapies (APP67256)",
+            "institution": "MRC, United Kingdom",
+            "startDate": "2026-01",
+            "endDate": "2030-12",
+            "description": [
+                "RISE is a multidisciplinary initiative aimed at addressing the challenges of advanced immunotherapies (ATs) like CAR-T, focusing on improving safety, accessibility, and long-term outcomes. It tackles critical issues such as cytokine release syndrome (CRS) and other severe adverse effects, which hinder broader adoption. Methodologically, RISE integrates cutting-edge in silico techniques, including AI-driven digital twins and multimodal data integration, to simulate patient outcomes and toxicity mechanisms. Through collaborations with NHS, academia, and industry partners, it combines high-dimensional immunoprofiling, wearable technologies, and patient-reported outcomes to enhance pharmacovigilance and establish new standards for AT development and regulation.",
+                "Funding: £3.199m."
+            ],
+            "img": "",
+            "logo": "mrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "UK RIN Implementation Phase: Human Health (CERSIs), PI",
+            "title": "UK CEiRSI— The UK's Centre of Excellence on In-silico Regulatory Science and Innovation - Pilot Phase (10139527)",
+            "institution": "MRC-InnovateUK, United Kingdom",
+            "startDate": "2025-02",
+            "endDate": "2026-01",
+            "description": [
+                "The UK Centre of Excellence on in-silico Regulatory Science and Innovation (UK CEiRSI) addresses a critical deadlock in medical product development and regulation. While Computational Modelling and Simulation (CM&amp;S) techniques offer potential for more reliable, faster, and cost-effective medical product testing and approvals, their adoption is hindered by a regulatory-industrial impasse: regulators lack evidence to accept in-silico methods as alternatives to live trials, while developers hesitate to invest without regulatory assurance. Building on successful preliminary work in international partnerships and regulatory guidance, the project will implement an innovative In-Silico Regulatory Airlock Initiative. Through pre-competitive pilot case studies of hypothetical medical products, the initiative will evaluate and refine existing credibility frameworks (including FDA and ASME V&amp;V standards) to establish robust UK principles for regulatory adoption of in-silico technologies, ultimately aiming to transform the medical product development landscape.",
+                "The University of Manchester, University of Oxford, University College London, Queen Mary University of London, University of Birmingham,  University of Edinburgh, University of Liverpool, University of Sheffield, University of Strathclyde, Swansea University, University of York. The partnership extends to key industry stakeholders, including ANSYS UK, the Association of British HealthTech Industries, BioNow, Edwards Lifesciences, Health Innovation Research Alliance, Health Innovation Manchester, Medtronic, NAFEMS, NHS England, NPL, The British Standards Institution, and The Organisation for Professionals in Regulatory Affairs.",
+                "Funding: £1m."
+            ],
+            "img": "",
+            "logo": "mrc-innovateuk.png",
+            "url": ""
+        },
+        {
+            "subtitle": "BHF Centres of Research Excellence, Awarded to Prof B Keavney, WP5 Co-Lead (w/ Prof S Ananiadou, PI)",
+            "title": "BHF Manchester Centre of Research Excellence (RE/24/130017)",
+            "institution": "British Heart Foundation, United Kingdom",
+            "startDate": "2024-10",
+            "endDate": "2029-10",
+            "description": [
+                "The Manchester British Heart Foundation Centre of Research Excellence (CRE) advances cardiovascular research by driving interdisciplinary collaboration to tackle cardiovascular disease. It focuses on innovative prevention, diagnosis, treatment, and care strategies, emphasising combining cutting-edge technology and clinical expertise to deliver high-impact and translational discoveries. The Centre integrates world-class cardiovascular science, data science, and AI researchers. This enables us to foster groundbreaking research in cardiovascular genomics, heart failure, and inflammatory drivers of disease.",
+                "Funding: £8.1m."
+            ],
+            "img": "",
+            "logo": "bhf.png",
+            "url": ""
+        },
+        {
+            "subtitle": "CRUK Radiation Research Network Programme, Co-Investigator",
+            "title": "Manchester Radiation Research Centre of Excellence (C1994/A28701)",
+            "institution": "Cancer Research UK, United Kingdom",
+            "startDate": "2024-11",
+            "endDate": "2029-10",
+            "description": [
+                "CRUK RadNet Manchester works in collaboration with The Christie NHS Foundation Trust and The University of Manchester to develop an integrated world-leading radiation oncology programme working towards individualised personalised physical and biological testing based on real-time outcomes and a mechanistic understanding of the tumour microenvironment, immune response, comorbidity and genomics. The network represents a significant investment by Cancer Research UK to establish a critical mass of radiation research activity across seven strategic locations in the UK, including Manchester. The Manchester Centre focuses on three key areas: personalised and adaptive radiotherapy, re-irradiation strategies, and combining radiotherapy with novel therapeutic approaches. My role involves developing computational approaches to support these research priorities, particularly in the areas of image-guided therapy planning and response prediction.",
+                "Funding: £4,520,648.14."
+            ],
+            "img": "",
+            "logo": "cruk.svg",
+            "url": ""
+        },
+        {
+            "subtitle": "NIHR Biomedical Research Centres, Digital Infrastructure Lead  (w/ Prof A Barton, PI)",
+            "title": "NIHR Manchester Biomedical Research Centre (NIHR203308)",
+            "institution": "National Institute for Health and Care Research, United Kingdom",
+            "startDate": "2022-11",
+            "endDate": "2027-10",
+            "description": [
+                "The Manchester Biomedical Research Center (BRC) of the National Institute of Health and Care Research (NIHR) has received a £59.1m award, which is the largest single research award given by the NIHR to the city region. This grant will aid in translating scientific discoveries into new treatments, diagnostic tests, and medical technologies that will improve the lives of patients in Greater Manchester and beyond, over the next five years. As the leader of the BRC Digital Infrastructure, I am working towards contributing to the delivery of the Greater Manchester Secure Data Environment.",
+                "Funding: £59.1m."
+            ],
+            "img": "",
+            "logo": "nihr.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Research Grant, Frontier Research Guarantee, Awardee",
+            "title": "INSILICO: Cardiovascular Device Innovation and Regulatory Science: Virtual Chimaeras and In-Silico Trials with Novel Hybrid Machine Learning (EP/Y030494/1)",
+            "institution": "Engineering and Physical Sciences Research Council, United Kingdom",
+            "startDate": "2023-12",
+            "endDate": "2028-10",
+            "description": [
+                "INSILICO will lay advanced computational foundations to accelerate the adoption of in-silico trials as a cost-effective and rational approach to drive medical device innovation and regulatory evidence. It will unify deep learning driven by data and knowledge using hybrid representations. It will lead to a) creating virtual patient cohorts reflecting complex patient features from real-world populations, b) predicting mechanistically/phenomenologically interventional outcomes in virtual populations, and c) ensuring the accuracy, reliability, and scalability of computational predictions and their uncertainties.",
+                "Funding: £2.163m."
+            ],
+            "img": "",
+            "logo": "nihr.png",
+            "url": ""
+        },
+        {
+            "subtitle": "RAEng Chair in Emerging Technologies, Chair Holder",
+            "title": "INSILEX: Precision Computational Medicine for <em>in silico</em> Trials of Medical Devices (CiET1819/19)",
+            "institution": "Royal Academy of Engineering, United Kingdom",
+            "startDate": "2019-05",
+            "endDate": "2029-04",
+            "description": [
+                "The Academy's Chair in Emerging Technologies scheme aims to identify global research visionaries and provide them with long-term support to lead on developing emerging technology areas with high potential to deliver economic and social benefit to the UK.",
+                "Funding: £2.69m."
+            ],
+            "img": "",
+            "logo": "rae.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Network Grant, Catapult-Academic Engagement Network Plus, Co-Investigator (w/ Dr P Osborne, PI)",
+            "title": "Innovation Launchpad Network (EP/W037009/1)",
+            "institution": "Engineering and Physical Sciences Research Council, United Kingdom",
+            "startDate": "2022-04",
+            "endDate": "2026-04",
+            "description": [
+                "The Innovation Launchpad network aims to unify cross-disciplinary academic teams to work with the UK's nine Catapult Centres in areas like Net Zero, Healthcare &amp; Wellbeing, and Resilience. It boasts wide geographical coverage across the UK and is supported by a Steering Panel to enhance expertise and collaboration. The initiative seeks to foster new technologies and methodologies, promoting a culture of inclusion and diversity beyond traditional academic recognitions. By connecting academics with Catapult Centres and focusing on equal opportunities, the network intends to bridge significant gaps in academia and industry, encouraging innovation and knowledge exchange.",
+                "Funding: £4.88m."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Cancer Research UK Radiation Therapy Network, Principal Investigator",
+            "title": "STARTER-KIT: A technical, procedural and ethical template for accelerating the start-up of AI multicentre studies requiring data re-use and sharing in clinical settings (RRNIA-Feb22\\100001)",
+            "institution": "Cancer Research UK, United Kingdom",
+            "startDate": "2022-06",
+            "endDate": "2026-05",
+            "description": [
+                "STARTER-KIT combines complementary research and expertise, developed separately as part of the CRUK-funded RadNet, ART-NET, and NCITA consortia and made available via newly designated CRUK Centres, to create an infrastructure template and worked examples for facilitating multicentre collaborative data analytics projects.",
+                "Funding: £198k."
+            ],
+            "img": "",
+            "logo": "cruk.svg",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "CROSSLINK: Computational phenomics for unravelling associative/causative links using image-based multi phenotypes in diabetes in the UK Biobank (IES\\NSFC\\201380)",
+            "institution": "International Exchanges Cost Share Scheme, The Royal Society, UK",
+            "startDate": "2021-03",
+            "endDate": "2026-03",
+            "description": [
+                "UK-China International Exchange Program.",
+                "Other Partners: Shenzhen University.",
+                "Funding £12k."
+            ],
+            "img": "",
+            "logo": "theroyalsociety.png",
+            "url": ""
+        },
+        {
+            "subtitle": "UKRI UK Regulatory Science and Innovation Networks— Discovery Phase, PI)",
+            "title": "UK Centre of Excellence in in-silico Regulatory Science and Innovation supporting the Entire Product Lifecycle in Life and Health Sciences— A network of enabling national capabilities (10110484)",
+            "institution": "InnovateUK, United Kingdom",
+            "startDate": "2024-03",
+            "endDate": "2024-08",
+            "description": [
+                "The UK Centre of Excellence in in-silico Regulatory Science and Innovation (UK CEiRSI) aims to enhance the InSilicoUK Pro-Innovation Regulations Network's efforts in advancing computational modelling and simulation (CM&amp;S) for Life and Health Sciences. Traditional testing methods for medical products are costly and time-consuming and involve multiple stages, from bench tests to human clinical trials. In contrast, in-silico testing uses computational models, including digital twins and virtual patients, to simulate product life cycles, offering a more efficient, cost-effective, and ethical alternative by minimising animal and human testing. Launched in March 2022, InSilicoUK has grown into a community of over 2,600 members from academia, industry, and regulatory bodies, working towards integrating in-silico evidence into regulatory science. This initiative promises to accelerate medical product development and enhance patient safety but also positions the UK as a leader in the global shift towards embracing in-silico science for healthcare innovation, contributing significantly to public health and economic prosperity.",
+                "Funding: £50k."
+            ],
+            "img": "",
+            "logo": "innovateuk.webp",
+            "url": ""
+        },
+        {
+            "subtitle": "Programme Grant, Co-Investigator (w/ Prof R Hall, PI)",
+            "title": "OncoEng: Oncological Engineering— A new concept in the treatment of bone metastases (EP/W007096/1)",
+            "institution": "Engineering and Physical Sciences Research Council (EPSRC), UK",
+            "startDate": "2022-01",
+            "endDate": "2026-12",
+            "description": [
+                "OncoEng adopts a patient-centric methodology, forecasting vertebral failures due to tumors to guide treatment decisions. We employ sophisticated computational modeling and imaging to predict vertebral integrity over time. Moreover, we’re developing minimally invasive, custom implants to reinforce at-risk vertebrae, minimising recovery time and discomfort.",
+                "Other Partners: University College London, Imperial College London, Airbus Group Ltd, ETH Zurich, Lulea University of Technology, Photocentric Ltd, Simulation Solutions, TOffeeAM Ltd, University of Florida.",
+                "Funding £5.62m."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator (w/ Prof S Freear, PI)",
+            "title": "TUSCA: Transthoracic Ultrasound Coronary Angiography (EP/V04799X/1)",
+            "institution": "Engineering and Physical Sciences Research Council (EPSRC), UK",
+            "startDate": "2021-04",
+            "endDate": "2024-03",
+            "description": [
+                "Healthcare Innovation Partnerships Program.",
+                "Other Partners: Imperial College London, Acoustic, GE Healthcare, Grow MedTech, Woodcliffe Associates.",
+                "Funding £1.15m."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator, Host, Mentor",
+            "title": "ROCHESTER: Quantification of free and bound water concentrations in human cortical bone using hybrid hard tissue magnetic resonance imaging: Towards Comprehensive Osteoporosis Assessment (H2020-MSCA-IF-2019-IIF-898530)",
+            "institution": "Marie Curie-Slowdoska International Incoming Fellowships (IIF), European Commission",
+            "startDate": "2021-05",
+            "endDate": "2023-05",
+            "description": [
+                "Fellow: Dr Hamidreza Saligheh Rad.",
+                "Total Funding: €225k."
+            ],
+            "img": "",
+            "logo": "mcaec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Cancer Research UK Radiation Therapy Network, Co-Investigator",
+            "title": "Cancer Research UK Radiation Research Centre of Excellence at the University of Leeds (C19942/A28832)",
+            "institution": "Cancer Research UK, United Kingdom",
+            "startDate": "2019-11",
+            "endDate": "2024-10",
+            "description": [
+                "CRUK invested £56m over five years to establish a critical mass of activity in 7 locations (including Leeds). The Network will support the further growth of the radiation research community through national and international multidisciplinary collaboration and by developing the field's future leaders. The focus of the Leeds Centre is on a) Personalised and adaptive radiotherapy, b) Re-irradiation, and c) Combining radiotherapy with novel therapies.",
+                "Funding: £3.5m."
+            ],
+            "img": "",
+            "logo": "cruk.svg",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "Learning novel deep multiscale representations of heart anatomy for cardiomics through graph neural networks (IES\\R2\\202165)",
+            "institution": "International Exchanges Scheme, The Royal Society, UK",
+            "startDate": "2021-02",
+            "endDate": "2023-02",
+            "description": [
+                "UK-Argentina Exchange Program.",
+                "Funding £12k."
+            ],
+            "img": "",
+            "logo": "theroyalsociety.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, PI at the University of Leeds",
+            "title": "BQ-MINDED: Breakthroughs in Quantitative Magnetic resonance ImagiNg for improved Detection of Brain Diseases (H2020-MSCA-ITN-2017-764513)",
+            "institution": "Marie Curie-Slowdoska Program, European Commission",
+            "startDate": "2018-01",
+            "endDate": "2021-12",
+            "description": [
+                "Consortium Leader: Jan Sijbers, Antwerp University, Belgium.",
+                "Partners: University of Antwerp (BE), Erasmus Medical Centre Rotterdam (NL), University of Leeds (UK), Julich Forschungszentrum (DE), Siemens Healthineers (BE), MR Solutions (UK), Icometrix (BE), Quantib (NL), Antwerp University Hospital (BE).",
+                "Total Funding: €3.7m.",
+                "Share of Funding: €550k."
+            ],
+            "img": "",
+            "logo": "mcaec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Technical Coordinator, PI at the University of Leeds",
+            "title": "InSilc: In-silico trials for drug-eluting bioabsorbable vascular stents (BVS): design, development, and evaluation (H2020-SC1-PM-16-2017-777119)",
+            "institution": "Research &amp; Innovation Action, European Commission",
+            "startDate": "2017-11",
+            "endDate": "2020-10",
+            "description": [
+                "Consortium Leader: Dimitris Fotiadis, Foundation for Research and Technology Hellas, Greece.",
+                "Partners: University of Sheffield (UK), Erasmus University Medical Centre (NL), Politecnico de Milano (IT), CNRS (IT), Mediolanum Cardio Research SR (IT), FEOPS NV (NL), National University of Ireland (IE), BioIRC doo (RS), Panepistimio Ioanninon (EL), Concord Inc (US), Boston Scientific Ltd (IE).",
+                "Total Funding: €5.8m.",
+                "Share of Funding: €658k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Technical Coordinator, PI at the University of Leeds",
+            "title": "BackUP: Personalised Prognostic Models to Improve Well-being and Return to Work After Neck and Low Back Pain (H2020-SC1-PM-17-2017-777090)",
+            "institution": "Research &amp; Innovation Action, European Commission",
+            "startDate": "2018-01",
+            "endDate": "2020-12",
+            "description": [
+                "Consortium Leader: Helios de Rosario, Instituto de Biomecanica de Valencia, Spain.",
+                "Partners: University of Leeds (UK), GMV Soluciones Globales Internet SAU (ES), Universita degli Studi di Parma (IT), Empirica Gesselschaft MbH (DE), Norges Teknisk Naturvitenskapelige Universitet (NO), Universita degli Studi di Padova (IT), Roessingh Research and Development BV (NL), Genos Doo (HR), Karolinska Institutet (SE), Centralny Instytut Ochrony Pracy (PL), University of Keele (UK), MAZ Mutua de Seguros (ES).",
+                "Total Funding: €5.1m.",
+                "Share of Funding: €736k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Grow MedTech Proof of Concept Award, Principal Investigator",
+            "title": "Cardio-X: from cardiac imaging to integrated quantitative patient reports for Precision Cardiology within LTHT the (POC041)",
+            "institution": "Grow MedTech, EPSRC, United Kingdom",
+            "startDate": "2020-04",
+            "endDate": "2021-12",
+            "description": [
+                "This project will demonstrate the technical feasibility and commercial viability of a technology enabling scale-based quantitative cardiac image analysis. Preliminary work on this technology has shown its feasibility in analysing 32k subjects from the UK Biobank, where it was benchmarked against 5k cases with manual annotation. The proposed prototype will be deployed in a test environment within the NHS Leeds Teaching Hospital Trust through a co-development process involving end-user professionals (clinicians and clinical imaging experts), patients and members of the public.",
+                "Funding: £89k."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "VERDICT: Development and Evaluation of a Functional Prototype for the Automated Identification of Osteoporotic Vertebral Fractures (ARUK-21498)",
+            "institution": "Proof of Concept, Arthritis Research UK, UK",
+            "startDate": "2017-04",
+            "endDate": "2019-12",
+            "description": [
+                "PI: Alejandro F Frangi.",
+                "Collaborators: Mellanby Centre for Bone Research, University of Sheffield.",
+                "Total Funding: €99k."
+            ],
+            "img": "",
+            "logo": "aruk.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, PI at the University of Sheffield",
+            "title": "MedIAN: EPSRC-NIHR HTC Partnership Award' Plus': Medical Image Analysis Network (EP/N026993/1)",
+            "institution": "Engineering and Physical Sciences Research Council (EPSRC), UK",
+            "startDate": "2016-06",
+            "endDate": "2019-06",
+            "description": [
+                "PI: Alison Noble, University of Oxford.",
+                "Other Partners: University of Leeds, Imperial College London, King's College London, University College London.",
+                "Funding £507,583.",
+                "Share of Funding: €130k."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "OCEAN: One-stop-shop microstructure-sensitive perfusion/diffusion MRI: Application to vascular cognitive impairment (EP/M006328/1)",
+            "institution": "Engineering and Physical Sciences Research Council (EPSRC), UK",
+            "startDate": "2015-04",
+            "endDate": "2019-09",
+            "description": [
+                "Other Partners: University of Manchester, University of Cardiff.",
+                "Funding £1.3m."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "STORMING Simultaneous de-noising and non-rigid registration for medical imaging (IE141258)",
+            "institution": "International Exchanges Scheme, The Royal Society, UK",
+            "startDate": "2015-04",
+            "endDate": "2018-10",
+            "description": [
+                "UK-China Exchange Program.",
+                "Funding £12k."
+            ],
+            "img": "",
+            "logo": "theroyalsociety.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "VPH-DARE@IT: VPH Dementia Research Enabled by IT  (FP7-ICT-2011-9-601055)",
+            "institution": "Integrated Project, European Commission",
+            "startDate": "2013-04",
+            "endDate": "2017-09",
+            "description": [
+                "Partners: The Chancellor, Masters and Scholars of the University of Oxford (UK), Teknologian Tutkimuskeskus VTT (FI), ESI Group SA (FR), Advanced Simulation and Design Gmbh (DE), Empirica Gesellschaft Fuer Kommunikations- Und Technologie Forschung Mbh (DE), Universite-tet I Oslo (NO), Erasmus Universitair Medisch Centrum Rotterdam (NL), Klinik Hirslanden AG (CH), Philips Medical Systems Nederland BV (NL), Eidgenoessische Technische Hochschule Zurich (CH), Kings College London (UK), Philips Technologie Gmbh (DE), Sheffield Teaching Hospitals NHS Foundation Trust (UK), University College London (UK), Itä-Suomen Yliopisto (FI), Universiteit Maastricht (NL), Tomorrow Options Microelectronics SA (P), Imperial College of Science, Technology and Medicine (UK), EIBIR Gemeinnuetzige Gmbh zur Foerderung der Erforschung der Biomedizinischen Bildgebung (A).",
+                "Total Funding: €13.3m.",
+                "Share of Funding: €3.5m."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Collaborator",
+            "title": "MindNet EPSRC-NIHR HTC Partnership Award: Partnership with the MindTech HTC (EP/M000346/1)",
+            "institution": "Engineering and Physical Sciences Research Council (EPSRC), UK",
+            "startDate": "2014-04",
+            "endDate": "2017-05",
+            "description": [
+                "PI: Chris Taylor, University of Manchester.",
+                "Other Partners: University of Nottingham, University of Sheffield, University of Lancaster and University of York.",
+                "Funding £151k."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, PI at the University of Sheffield",
+            "title": "MedIAN EPSRC-NIHR HTC Partnership Award: Medical Image Analysis Network (EP/M000133/1)",
+            "institution": "Engineering and Physical Sciences Research Council (EPSRC), UK",
+            "startDate": "2014-06",
+            "endDate": "2017-06",
+            "description": [
+                "PI: Alison Noble, University of Oxford.",
+                "Other Partners: University of Sheffield, Imperial College London, King's College London, University College London.",
+                "Funding £151k."
+            ],
+            "img": "",
+            "logo": "epsrc.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator",
+            "title": "MD-Paedigree: Model-Driven European Paediatric Digital Repository (FP7-ICT-2011-9-600932)",
+            "institution": "Integrated Project, European Commission",
+            "startDate": "2013-03",
+            "endDate": "2017-02",
+            "description": [
+                "Partners: Ospedale Pediatrico Bambino Gesu (IT), University College London (UK), Istituto Giannina Gaslini (IT), Johns Hopkins University (USA), Katholieke Universiteit Leuven (BE), Vereniging Voor Christelijk Hoger Onderwijs Wetenschappelijk Onderzoek en Patientenzorg (Nl), Universitair Medisch Centrum Utrecht (NL), Siemens AG (DE), BGI Europe Institute Denmark (DK), Fraunhofer-Gesellschaft zur Foerderung der Angewandten Forschung E.V. (DE), Institut National de Recherche en Informatique et en Au-tomatique (FR), Motek Medical B.V. (NL), Siemens Corporation (USA), Technische Universiteit Delft (NL), Universita degli Studi di Roma La Sapienza (IT), the University of Sheffield (UK), Maat France (FR), Haute Ecole Spe-cialisee de Suisse Occidentale (CH), Universitatea Transilvania din Brasov (RO), National and Kapodistrian University of Athens (GR), Empirica Gesellschaft fuer Kommunikations- und Technologieforschung Mbh (DE), Lynkeus (IT).",
+                "Total Funding: €11.9m.",
+                "Share of Funding: €940k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator, Host, Mentor",
+            "title": "BALMORAL: Variational Basis Learning for Statistical Motion Atlases: Application to Quantitative Dynamic Cardiac Imaging (FP7-PEOPLE-2013-IIF-625745)",
+            "institution": "Marie Curie-Slowdoska International Incoming Fellowships (IIF), European Commission",
+            "startDate": "2014-07",
+            "endDate": "2016-06",
+            "description": [
+                "Fellow: Dr Ali Gooya — Currently Lecturer at the University of Sheffield.",
+                "Total Funding: €309k."
+            ],
+            "img": "",
+            "logo": "mcaec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Principal Investigator at Universitat Pompeu Fabra",
+            "title": "VPH-Share: Virtual Physiological Human - Structured Human Physiological Research Environment  (FP7-ICT-2010-6-269978)",
+            "institution": "Integrated Project, European Commission",
+            "startDate": "2011-03",
+            "endDate": "2015-02",
+            "description": [
+                "PI: Rod Hose, University of Sheffield.",
+                "Partners: University of Sheffield (UK) Akademia Gorniczo-Hutnicza (PL), Sheffield Teaching Hospitals NHS Foundation Trust (UK), ATOS ORIGIN (ES), The Chancellor, Masters and Scholars of the University of Oxford (UK), Universitat Pompeu Fabra (UK), Empirica Gesellschaft fuer Kommunikations und Technologieforschung (DE), SCS (IT), NHS Information Centre (UK), Institut National De Recherche en Informatique et en Automatique (FR), Istituto Ortopedico Rizzoli (IT), The Open University (UK), Philips Electronics Nederland (NL), Technische Universiteit Eindhoven (NL), University of Auckland (NZ), Universiteit van Amsterdam (NL), University College London (UK), Universitaet Wien (AU), Agencia D'Avaluacio de Tecnologia i Recerca Mediques (ES), IBM Israel – Science and Technology Ltd (IL) and Fundació Clínic per a la Recerca Biomèdica (ES).",
+                "Total Funding: €10.7m.",
+                "Share of Funding: €1.1m."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Principal Investigator at Universitat Pompeu Fabra",
+            "title": "MySpine: Functional prognosis simulation of patient-specific spinal treatment for clinical use (FP7-ICT-2009-6-269909)",
+            "institution": "STREP Project, European Commission",
+            "startDate": "2011-03",
+            "endDate": "2014-02",
+            "description": [
+                "PI: Damien Lacroix, Institute for Bioengineering of Catalonia.",
+                "Partners: Institute for Bioengineering of Catalonia (ES), Eindhoven University of Technology (NL), Vienna University of Technology (AU), University of Technology of Compiegne (FR), Universitat Pompeu Fabra (ES), CETIR Grup Mèdic (ES) and the National Center for Spinal Disorders (Buda Health Center) (HU).",
+                "Total Funding: €3.9m.",
+                "Share of Funding: €512k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Principal Investigator at Universitat Pompeu Fabra",
+            "title": "eHealth Innovation: Scaling up eHealth Facilitated personalised health services: Developing a European roadmap for sustained eHealth Innovation (CIP-ICT-PSP-2009-4)",
+            "institution": "Thematic Network, European Commission",
+            "startDate": "2011-04",
+            "endDate": "2013-10",
+            "description": [
+                "PI: Dipak Kalra, University College London.",
+                "Partners:  University College London Consultants (UK), empirica Gesellschaft für Kommunikations- und Technologieforschung (DE), Aarhus University (DK), European Institute for Health Records (BE), Continua Health Alliance (BE), University of Manchester (UK), National Institute of Public Health, Rep. of Slovenia (SI), French Ministry of Health (FR), Dutch Association for primary &amp; integrated healthcare (NK), County Council of Uppsala (SE) Royal College of Physicians (UK), European Connected Health Campus (UK), University of Sheffield (UK), AOK Rheinland/Hamburg (DE), Government of Catalonia HTA Agency (ES), The Danish eHealth Portal (DK), Czech National eHealth Forum (CZ), European Health Telematics Association (BE), Europ. Coord. Committee of the Radiological, Electromedical and Healthcare IT Industry (BE), Universitat Pompeu Fabra (ES), Health Consumer Powerhouse (BE), University Hospitals of Geneva (CH), and F. Hoffmann-La Roche (CH).",
+                "Total Funding: €497k.",
+                "Share of Funding: €20k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Scientific Coordinator",
+            "title": "cvREMOD: Gestión de remodelado cardiovascular mediante interacción de tecnologías de monitorización ubicua y conceptos del humano fisiológico virtual (CEN-20091044)",
+            "institution": "Programa CENIT, Centro para el Desarrollo Tecnológico e Industrial (CDTI), Spain",
+            "startDate": "2009-09",
+            "endDate": "2012-12",
+            "description": [
+                "Partners: Consortium of 10 companies and 10 academic institutions.",
+                "Total Funding: €24.0m.",
+                "Share of Funding: €2.6m."
+            ],
+            "img": "",
+            "logo": "cdti.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Principal Investigator at Universitat Pompeu Fabra",
+            "title": "RICORDO: Researching Interoperability using Core Reference Datasets and Ontologies for the Virtual Physiological Human (ICT-2009-248502)",
+            "institution": "STREP, European Commission",
+            "startDate": "2009-02",
+            "endDate": "2013-01",
+            "description": [
+                "PI: Bernard de Bono, European Bioinformatics Institute.",
+                "Partners: EBI -European Molecular Biology Laboratory (EU), The University of Auckland (NZ), Universitat Pompeu Fabra (ES), University of Washington, Medical Research Council, Danish Technical University (DK), The University of Cambridge (UK) and Herriot-Watt University (UK).",
+                "Total Funding: €1m.",
+                "Share of Funding: €155k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Principal Investigator at Universitat Pompeu Fabra",
+            "title": "MSV: Multiscale Spatiotemporal Visualisation: development of an open-source software library for the interactive visualisation of multiscale biomedical data (ICT-2009-248032)",
+            "institution": "STREP, European Commission",
+            "startDate": "2009-02",
+            "endDate": "2013-01",
+            "description": [
+                "PI: Assandro Chiarini, B3C Srl.",
+                "Partners: B3C Srl. (IT), University of Bedfordshire (UK), Universitat Pompeu Fabra (ES), The University of Auckland (NZ), Kitware Inc (USA).",
+                "Total Funding: €1m.",
+                "Share of Funding: €200k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "STIMATH: Análisis de imágenes de alto rendimiento mediante modelos estadísticos de forma, apariencia y deformación (TIN2009-14536-C02-01)",
+            "institution": "Plan Nacional de I+D+i, Ministerio de Innovación y Ciencia de España, Spain",
+            "startDate": "2010-01",
+            "endDate": "2012-12",
+            "description": [
+                "Partners: B3C Srl. (IT), University of Bedfordshire (UK), Universitat Pompeu Fabra (ES), The University of Auckland (NZ), Kitware Inc (USA).",
+                "Total Funding: €288k."
+            ],
+            "img": "",
+            "logo": "mc+i.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Principal Investigator at Universitat Pompeu Fabra",
+            "title": "euHeart: Personalised &amp; Integrated Cardiac Care: Patient-specific Cardiovascular Modelling and Simulation for In Silico Disease Understanding &amp; Management and for Medical Device Evaluation &amp; Optimization (IST-2007-224495)",
+            "institution": "Integrated Project, European Commission",
+            "startDate": "2008-06",
+            "endDate": "2012-06",
+            "description": [
+                "PI: Juergen Weese, Philips Research Hamburg.",
+                "Partners: 17 European organisations led by Philips Research.",
+                "Total Funding: €13.9m.",
+                "Share of Funding: €1.64k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Principal Investigator at Universitat Pompeu Fabra",
+            "title": "VPH-NOE: Virtual Physiological Human (IST-2007-223920)",
+            "institution": "Network of Excellence, European Commission",
+            "startDate": "2008-06",
+            "endDate": "2012-06",
+            "description": [
+                "PI: Peter Coveney, University College London.",
+                "Partners:  12 European organisations led by University College London.",
+                "Total Funding: €8m.",
+                "Share of Funding: €900k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "External Consultant",
+            "title": "Computational Analysis of Cerebral Aneurysm Evolution (R01 NS059063-01)",
+            "institution": "National Institute of Neurological Disorders and Stroke (NINDS), USA",
+            "startDate": "2007-06",
+            "endDate": "2011-06",
+            "description": [
+                "PI: Juan R Cebral, George Mason University, USA."
+            ],
+            "img": "",
+            "logo": "ninds.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Co-Investigator, Director of the Universitat Pompeu Fabra node",
+            "title": "CIBER-BBN: National Center for Networked Biomedical Research in Bioengineering, Biomaterials and Nanomedicine (CB06/01/0061)",
+            "institution": "Instituto de Salud Carlos III, Spain",
+            "startDate": "2006-01",
+            "endDate": "2012-12",
+            "description": [
+                "Network of the best 36 groups in bioengineering, biomaterials and nanomedicine.",
+                "Funding: core funding of €110k per annum during the period."
+            ],
+            "img": "",
+            "logo": "isciii.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Scientific Coordinator",
+            "title": "CDTEAM: Consortium for the Development of Advanced Medical Imaging Technologies",
+            "institution": "Programa CENIT, Centro para el Desarrollo Tecnológico e Industrial (CDTI), Spain",
+            "startDate": "2006-01",
+            "endDate": "2009-12",
+            "description": [
+                "Partners: Consortium of 10 companies and ten academic institutions.",
+                "Total Funding: €15.8m.",
+                "Share of Funding: €1.8m."
+            ],
+            "img": "",
+            "logo": "cdti.png",
+            "url": ""
+        },
+        {
+            "subtitle": "Principal Investigator",
+            "title": "@neurIST: Integrated Biomedical Informatics for the Management of Cerebral Aneurysms (IST-2004-027703)",
+            "institution": "Integrated Project, European Commission",
+            "startDate": "2008-06",
+            "endDate": "2012-06",
+            "description": [
+                "PI: Juergen Weese, Philips Research Hamburg.",
+                "Partners: 27 European organisations and four non-European participants.",
+                "Total Funding: €12.6m.",
+                "Share of Funding: €1.9k."
+            ],
+            "img": "",
+            "logo": "ec.png",
+            "url": ""
+        },
+        {
+            "subtitle": "External Consultant",
+            "title": "AHAWALL: Study of the Interaction of Wall Shear Stress and Cerebral Aneurysm Wall Compliance",
+            "institution": "American Heart Association, USA",
+            "startDate": "2006-08",
+            "endDate": "2008-07",
+            "description": [
+                "PI: Juan R Cebral, George Mason University, USA."
+            ],
+            "img": "",
+            "logo": "aha.svg",
+            "url": ""
+        }
+    ]
+}
