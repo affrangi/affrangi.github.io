@@ -1232,7 +1232,7 @@ ninja-keys::part(ninja-input-wrapper) {
 }
 
 .newsletter-form-input,
-.bibsearch-form-input {
+.search-form-input {
   color: var(--global-newsletter-text-color);
   background: var(--global-newsletter-bg-color);
   border: 0px;
@@ -1374,4 +1374,153 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+// Funding
+
+.funding-container {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  ol.funding {
+    padding: 0;
+
+    li.funding-item {
+      list-style: none;
+
+    
+      .card {
+        img.funding-thumbnail {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 3px;
+        }
+    
+        margin-bottom: 20px;
+        background-color: var(--global-card-bg-color) !important;
+        border: 1px solid var(--global-divider-color) !important;
+    
+        .card-body {
+          .card-subtitle {
+            color: var(--global-text-color-light);
+            margin-bottom: 5px;
+          }
+    
+          
+          .card-text {
+            color: #747373 !important;
+            
+            li {
+              color: #747373 !important;
+            }
+          }
+          
+          img.logo {
+            max-width: 100%;
+            max-height: 60px;
+            margin-top: 10px;
+          }
+          
+          .funding-date-and-institution {
+            display: flex;
+            margin: 0px;
+            
+            .card-institution {
+              color: var(--global-theme-color);
+            }
+    
+            .date-badge {
+              color: var(--global-card-bg-color);
+              background-color: var(--global-theme-color);
+              border-radius: .125rem;
+              -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+              box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+              font-size: small;
+              margin: 0px;
+              margin-right: 10px;
+              margin-bottom: 10px;
+              padding: 2px 10px;
+              text-wrap: nowrap;
+              height: 24px;
+            }
+          } 
+        }
+      }
+      
+    }
+  }
+
+  h2.funding-year {
+    color: var(--global-divider-color);
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: right;
+  }
+
+  .col {
+    padding-bottom: 1rem;
+  }
+
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+}
+
+// Read More Button
+
+.readmore {
+  position: relative;
+  overflow: hidden;    
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+
+  .readmore-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 80px;
+    background: linear-gradient(to bottom, transparent, var(--readmore-gradient-color));
+
+    .readmore-button {
+      display: inline-block;
+      background-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+      padding: 0.5rem 1rem;
+      border-radius: 0.3rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      border: none;
+      margin-bottom: 10px;
+  
+      &:hover {
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+        transition: all 0.55s ease-in-out;
+      }
+    }
+
+  }
+}
+
+.card {
+  .readmore {
+    .readmore-container {
+      background: linear-gradient(to bottom, transparent, var(--readmore-card-gradient-color));
+    }
+  }
 }

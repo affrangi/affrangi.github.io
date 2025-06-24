@@ -21,7 +21,7 @@
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
-
+  
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -34,9 +34,11 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
-
+  
   --tag-unselected-bg-color: #{$tag-unselected-bg-color-light};
   --tag-selected-bg-color: var(--global-theme-color);
+  --readmore-gradient-color: var(--global-bg-color);
+  --readmore-card-gradient-color: var(--global-card-bg-color);
 
   #light-toggle-system {
     padding-left: 10px;
