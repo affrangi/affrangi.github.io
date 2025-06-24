@@ -2,12 +2,14 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: Sorry, no projects at the moment...
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [ongoing, past]
 horizontal: false
 ---
+
+<!-- On badge: -->
 
 <!-- pages/projects.md -->
 <div class="projects">
