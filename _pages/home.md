@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: >
   Bicentenary Turing Chair in Computational Medicine | 
@@ -54,3 +54,6 @@ population imaging and in silico clinical trials</em>.
 His highly interdisciplinary work has been translated into the areas
 of cardiovascular, musculoskeletal and neurosciences.
 
+
+> «Si los pueblos no se ilustran, si no se vulgarizan sus derechos, si cada hombre no conoce lo que vale, lo que puede y lo que se le debe, nuevas ilusiones sucederán a las antiguas, y después de vacilar algún tiempo entre mil incertidumbres, será tal vez nuestra suerte mudar de tiranos sin destruir la tiranía».  
+> Mariano Moreno, 1810, La Gaceta. 
