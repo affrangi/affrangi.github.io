@@ -1,0 +1,64 @@
+---
+layout: page
+---
+  <div class="alumni post color-badges">
+    <article>
+    {% if site.data.alumni %}
+      {% assign profiles = site.data.alumni | sort: "year" | reverse %}
+      {% for profile in profiles %}
+        <hr>
+        <div class="profile float-{% cycle 'left', 'right' %}">
+          {% if profile.image and profile.image != "" %}
+            {% if profile.image contains 'http' %}
+              {% assign profile_image_path = profile.image %}
+            {% else %}
+              {% assign profile_image_path = profile.image | prepend: 'assets/img/alumni/' %}
+            {% endif %}
+            {% if page.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.name %}
+          {% endif %}
+          </div>
+          
+          <div class="clearfix">
+            {% capture linkedin_icon %} 
+              {% if profile.linkedin and profile.linkedin != "" %}
+                <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="alumni-icon fa-brands fa-linkedin"></i></a>
+              {% endif %}
+            {% endcapture %}
+            <div class="alumni-name-container">
+              <h2>
+                {{ profile.name }}
+                </h2>
+                {{ linkedin_icon }}
+            </div>
+            {% if profile.position %}
+              <div class="alumni-position">{{ profile.position }}</div>
+            {% endif %}
+            <span class="badge font-weight-bold text-uppercase align-middle" style="min-width: 75px"> {{ profile.year }} </span>
+            {% capture pdf_icon %} 
+            {% if profile.pdf and profile.pdf != "" %}
+              {% if profile.pdf contains 'http' %}
+                {% assign pdf_path = profile.pdf %}
+              {% else %}
+                {% assign pdf_path = profile.pdf | prepend: 'assets/pdf/alumni/' %}
+              {% endif %}
+                <a href="{{ pdf_path }}" title="PDF"><i class="alumni-icon fa fa-file-pdf"></i></a>
+              {% endif %}
+            {% endcapture %}
+            <p class="alumni-title">
+              <em>
+              "{{- profile.title -}}"
+              </em>
+              {{ pdf_icon }}
+            </p>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
+

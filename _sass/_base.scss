@@ -1524,3 +1524,37 @@ ninja-keys::part(ninja-input-wrapper) {
     }
   }
 }
+
+.color-badges {
+  .badge {
+    color: var(--global-card-bg-color) !important;
+    background-color: var(--global-theme-color) !important;
+  }
+}
+
+.alumni {
+  .alumni-title {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .alumni-icon {
+    font-size: 27px;
+    margin-left: 10px;
+  }
+
+  .alumni-position {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+  }
+
+  .alumni-name-container {
+    display: flex;
+
+    .alumni-icon {
+      font-size: 2rem;
+      margin-top: 3px;
+    }
+  } 
+}
