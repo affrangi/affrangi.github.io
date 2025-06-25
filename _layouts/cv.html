@@ -80,14 +80,18 @@ layout: default
         {% endif %}
         <a class="anchor" id="{{ data[0] }}"></a>
         <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+          <h3 class="card-title font-weight-medium">{{ data[0] | split: '_' | join: ' ' }}</h3>
           <div>
           {% case data[0] %}
             {% when "basics" %}
               {% include resume/basics.html %}
             {% when "education" %}
               {% include resume/education.html %}
-            {% when "work" %}
+            {% when 'scholarships_and_fellowships' %}
+              {% include resume/scholarships_and_fellowships.html %}
+            {% when "current_positions" %}
+              {% include resume/work.html %}
+            {% when "past_positions" %}
               {% include resume/work.html %}
             {% when "volunteer" %}
               {% include resume/volunteer.html %}

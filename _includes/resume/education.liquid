@@ -7,8 +7,11 @@
           {% if content.startDate and content.startDate != '' %}
             {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
+            {% if endDate != startDate %}
+            {% assign date = startDate | append: " - " | append: endDate %}
+            {% else %}
+            {% assign date = startDate %}
+            {% endif %}
           {% else %}
             {% assign date = null %}
           {% endif %}
@@ -21,27 +24,22 @@
                   {% endif %}
                 </td>
               </tr>
-              {% if content.location %}
-                <tr>
-                  <td>
-                    <p class="location">
-                      <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ content.location }}
-                    </p>
-                  </td>
-                </tr>
-              {% endif %}
             </tbody>
           </table>
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.studyType }}</a>
+            <a href="{{ content.url }}">{{ content.name }}</a>
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
+          {% if content.location %}
+            <p class="ml-1 ml-md-4" style="font-size: 0.8rem;">
+              <i class="fa-solid fa-location-dot iconlocation"></i>
+              <em>{{ content.location }}</em>
+            </p>
+          {% endif %}
           <ul class="items">
-            {% for item in content.courses %}
+            {% for item in content.notes %}
               <li>
                 <span class="item">{{ item }}</span>
               </li>
