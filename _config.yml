@@ -342,7 +342,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: bibliography.bib
+  bibliography: publications.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -661,12 +661,15 @@ jekyll_get_json:
     json: assets/json/alumni.json # it can also be an url
 jsonresume:
   - basics
-  - work
+  - current_positions
+  - past_positions
   - education
+  - scholarships_and_fellowships
   - publications
   - projects
   - volunteer
-  - awards
+  - international_awards
+  - domestic_awards
   - certificates
   - skills
   - languages
