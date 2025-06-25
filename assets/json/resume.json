@@ -1,229 +1,503 @@
 {
   "basics": {
-    "name": "Carlson Moses Büth",
+    "name": "Alejandro Federico Frangi",
     "label": "",
-    "email": "carlson@cbueth.de",
+    "email": " a.frangi@manchester.ac.uk",
     "phone": "",
-    "url": "",
+    "url": "https://affrangi.github.io/",
     "summary": "",
-    "languages": "German, English, Spanish, Catalan"
+    "languages": "English, Spanish, Catalan, Dutch, German"
   },
-  "work": [
+  "current_positions": [
     {
-      "name": "IFISC, University of the Balearic Islands, Spain",
-      "position": "PhD Student",
-      "url": "https://ifisc.uib-csic.es/en/",
-      "startDate": "2023-11-01",
-      "summary": "PhD in Complex Systems, supervised by <a href='https://www.ifisc.uib-csic.es/en/people/massimiliano-zanin/'>Dr. Massimiliano Zanin</a>",
+      "position": "Bicentennial Turing Chair in Computational Medicine",
+      "institution": "The University of Manchester",
+      "location": "Manchester, UK",
+      "startDate": "2023-07",
       "highlights": [
-        "Delay in Complex Systems for Transport Systems, in the context of the <a href='https://ifisc.uib-csic.es/en/research/projects/arctic/'>ARCTIC (Air Transport as Information and Computation)</a> project"
-      ]
+        "Professor, <a href='https://www.cs.manchester.ac.uk/'>Department of Computer Science</a>, <a href='https://www.se.manchester.ac.uk/about/schools/engineering/'>School of Engineering</a>, Faculty of Science and Engineering.",
+        "Professor, <a href='https://www.staffnet.manchester.ac.uk/bmh/about-fbmh/our-structure/schools-and-divisions/shs/data-sciences/'>Division of Informatics, Imaging and Data Science</a>, <a href='https://www.staffnet.manchester.ac.uk/bmh/about-fbmh/our-structure/schools-and-divisions/shs/'>School of Health Sciences</a>, Faculty of Biology, Medicine and Health.",
+        "Founding Director, {CIMIM Centre for Computational Imaging and Modelling in Medicine}, (2001-).",
+        "Director (40% FTE), <a href='https://www.pankhurst.manchester.ac.uk'>The Christabel Pankhurst Institute for Health Technology Research and Innovation</a>, (2023-)."
+      ],
+      "url": "https://research.manchester.ac.uk/en/persons/alejandro-frangi"
     },
     {
-      "name": "Planning of Landscape and Urban Systems – PLUS, ETH Zürich, Switzerland",
-      "position": "External Scientist",
-      "url": "https://plus.ethz.ch/",
-      "startDate": "2023-08-14",
-      "endDate": "2025-01-31",
-      "summary": "Procurement of a high-performance biodiversity modeling pipeline and adapted linkage, in the context of the <a href='https://www.valpar.ch/index_en.php?page=home_en'>ValPar.CH</a> project (to be published)"
-    },
-    {
-      "name": "German Aerospace Center (DLR), Berlin-Adlershof",
-      "position": "Working Student",
-      "url": "https://www.dlr.de/en",
-      "startDate": "2021-03-01",
-      "endDate": "2021-08-30",
-      "summary": "Testing of the Fine Guidance System of the <a href='https://sci.esa.int/web/plato'>PLATO</a> mission",
+      "position": "Co-founder, Board Member, Chief Scientific Advisor",
+      "institution": "adsilico Ltd",
+      "location": "Leeds, UK",
+      "startDate": "2023-06",
       "highlights": [
-        "BSc Thesis: <a href='https://www.researchgate.net/publication/362860555_Fault_Injection_for_Robustness_Testing_of_Satellite_On-Board_Image_Processing'>Fault Injection for Robustness Testing of Satellite On-Board Image Processing</a>"
-      ]
+        "Provide scientific oversight and advice to the company Board, CEO, CTO, and CSO, ensuring the founding vision and scientific integrity are maintained across all research and development activities.",
+        "Offer early insights on the validity and viability of proposed projects and play an active advisory role throughout the R&amp;D lifecycle, contributing to the review and technical validation of information and establishing research standards.",
+        "Support recruiting high-quality technical and R&amp;D personnel and assist the CEO, CTO, and CSO in business development, understanding product requirements, and road mapping activities."
+      ],
+      "url": ""
     },
     {
-      "name": "Deans office Department VII - Psychology & Sports Sciences",
-      "position": "Student Assistant (SHB)",
-      "url": "https://www.uni-muenster.de/PsyEval/index.html",
-      "startDate": "2019-10",
-      "endDate": "2023-09",
-      "summary": "IT administration and support for the evaluation of the teaching quality of the department"
+      "position": "Co-founder, Board Member, Chief Scientific Advisor",
+      "institution": "OculomeX Health Ltd",
+      "location": "Manchester, UK",
+      "startDate": "2024-10",
+      "highlights": [
+        "Provide scientific oversight and advice to the company Board and CEO."
+      ],
+      "url": ""
     },
     {
-      "name": "Münster University Hospital (UKM)",
-      "url": "https://www.ukm.de/university-hospital-muenster",
-      "position": "Service Staff",
-      "startDate": "2015-09",
-      "endDate": "2019-09"
+      "position": "Honorary Professor",
+      "institution": "Katholieke Universiteit Leuven",
+      "location": "Leuven, BE",
+      "startDate": "2019-12",
+      "highlights": [
+        "Department of Cardiovascular Sciences.",
+        "Department of Electrical Engineering."
+      ],
+      "url": ""
     }
   ],
-  "volunteer": [
+  "past_positions": [
     {
-      "organization": "NEtwoRks, Data, and Society (NERDS), IT University of Copenhagen",
-      "position": "Research Intern",
-      "url": "https://nerds.itu.dk/",
-      "startDate": "2022-10-01",
-      "endDate": "2023-09-30",
-      "summary": "Year abroad for the Master's thesis on Computational Creation and Global Analysis of Low Traffic Neighbourhoods (LTNs). Guest with <a href='http://michael.szell.net/'> Prof. Michael Szell</a>"
+      "position": "AI and Regulatory Science Advisor",
+      "institution": "Department for Science, Innovation and Technology, UK Government",
+      "location": "London, UK",
+      "startDate": "2024-03",
+      "highlights": [
+        "Secondment (20% FTE), <a href='https://www.gov.uk/government/organisations/office-for-life-sciences'>Office for Life Sciences</a>, Department of Science, Innovation, and Technology."
+      ],
+      "url": "",
+      "endDate": "2025-01"
     },
     {
-      "organization": "9th International Conference on Computational Social Science (IC2S2)",
-      "position": "Student Volunteer",
-      "url": "https://www.ic2s2.org/",
-      "startDate": "2023-07-17",
-      "endDate": "2023-07-20",
-      "summary": "Conference Assistance"
+      "position": "Distinguished Visiting Scientist, Presidential International Fellowship Initiative",
+      "institution": "Chinese Academy of Science",
+      "location": "Ningbo, CN",
+      "startDate": "14-02",
+      "highlights": [
+        "<a href='https://ciben.nimte.ac.cn/'>Cixi Institute of Bioengineering</a>."
+      ],
+      "url": "",
+      "endDate": "2025-01"
     },
     {
-      "organization": "Faculty of Technology, Policy and Management (TPM), Delft University of Technology",
-      "position": "Research Intern",
-      "url": "https://www.tudelft.nl/en/tpm/",
-      "startDate": "2022-02-28",
-      "endDate": "2022-04-01",
-      "summary": "Meta-Analysis on Bicycle Helment Effectiveness (<a href='https://www.nature.com/articles/s41598-023-35728-x'>paper</a>)"
+      "position": "Turing Fellow",
+      "institution": "Alan Turing Institute",
+      "location": "London, UK",
+      "startDate": "2021-10",
+      "highlights": [
+        "Leading the way in research excellence in data science, AI, and innovation.",
+        "Driving groundbreaking research and expanding the horizons of scientific discovery.",
+        "Catalysts for new ideas and growth within the Turing Institute's dynamic community."
+      ],
+      "url": "",
+      "endDate": "2024-10"
     },
     {
-      "organization": "Student Council of the Department of Computer Science, University of Münster",
-      "position": "Student Representative",
-      "url": "https://www.uni-muenster.de/FSMI/",
-      "startDate": "2020-10-01",
-      "endDate": "2021-09-30"
+      "position": "Diamond Jubilee Chair in Computational Medicine",
+      "institution": "University of Leeds",
+      "location": "Leeds, UK",
+      "startDate": "2018-08",
+      "highlights": [
+        "Professor (60% FTE), <a href='https://engineering.leeds.ac.uk/info/20132/school_of_computing'>School of Computing</a>, Faculty of Engineering and Physical Sciences.",
+        "Professor (40% FTE), <a href='https://medhealth.leeds.ac.uk/info/500/leeds_institute_of_cardiovascular_and_metabolic_medicine'>Leeds Institute of Cardiovascular and Metabolic Medicine</a>, Faculty of Medicine and Health."
+      ],
+      "url": "",
+      "endDate": "2023-06"
     },
     {
-      "organization": "Student Council of the Department of Physics, University of Münster",
-      "position": "Student Representative",
-      "url": "https://www.uni-muenster.de/Physik.FSPHYS/en/",
-      "startDate": "2018-10-01",
-      "endDate": "2020-09-30"
+      "position": "Director Research &amp; Innovation",
+      "institution": "University of Leeds",
+      "location": "Leeds, UK",
+      "startDate": "2020-12",
+      "highlights": [
+        "Director R&amp;I (20% FTE), <a href='http://lida.leeds.ac.uk'>Leeds Institute for Data Analytics</a>."
+      ],
+      "url": "",
+      "endDate": "2022-12"
+    },
+    {
+      "position": "Distinguished Visiting Professor, Pengcheng Scholar Program",
+      "institution": "Shenzhen University",
+      "location": "Shenzhen, CN",
+      "startDate": "2020-07",
+      "highlights": [
+        "Shenzhen University funded by Shenzhen Education Bureau."
+      ],
+      "url": "",
+      "endDate": "2023-06"
+    },
+    {
+      "position": "Honorary Data Scientist",
+      "institution": "Leeds Teaching Hospitals NHS Trust",
+      "location": "Leeds, UK",
+      "startDate": "2018-08",
+      "highlights": "",
+      "url": "",
+      "endDate": "2023-06"
+    },
+    {
+      "position": "Scientific Director",
+      "institution": "University of Leeds &amp; Leeds Teaching Hospitals NHS Trust",
+      "location": "Leeds, UK",
+      "startDate": "2020-08",
+      "highlights": [
+        "Scientific Director (20% FTE), <a href='http://www.leeds.ac.uk/healthtech'>Leeds Centre for HealthTech Innovation</a>."
+      ],
+      "url": "",
+      "endDate": "2023-01"
+    },
+    {
+      "position": "Academic Master",
+      "institution": "Beijing Institute of Technology",
+      "location": "Beijing, CN",
+      "startDate": "2018-02",
+      "highlights": [
+        "Academic Master, Program 111 for Introducing Talents of Discipline in Medical Optics and Medical Imaging."
+      ],
+      "url": "",
+      "endDate": "2020-02"
+    },
+    {
+      "position": "Honorary Professor",
+      "institution": "Zhejiang University of Technology",
+      "location": "Hangzhou, CN",
+      "startDate": "2018-09",
+      "highlights": [
+        "Institute of Computer Vision, College of Computer Science and Technology."
+      ],
+      "url": "",
+      "endDate": "2020-08"
+    },
+    {
+      "position": "Visiting Scientist, Presidential International Fellowship Initiative",
+      "institution": "Chinese Academy of Science",
+      "location": "Ningbo, CN",
+      "startDate": "2019-02",
+      "highlights": [
+        "<a href='https://ciben.nimte.ac.cn/'>Cixi Institute of Bioengineering</a>."
+      ],
+      "url": "",
+      "endDate": "2020-04"
+    },
+    {
+      "position": "Visiting Professor on Biomedical Image Computing",
+      "institution": "University of Sheffield",
+      "location": "Sheffield, UK",
+      "startDate": "2018-08",
+      "highlights": [
+        "Visiting Professor, <a href='http://www.sheffield.ac.uk/eee'>Electronic and Electrical Engineering Department</a>."
+      ],
+      "url": "",
+      "endDate": "2020-08"
+    },
+    {
+      "position": "Professor on Biomedical Image Computing",
+      "institution": "University of Sheffield",
+      "location": "Sheffield, UK",
+      "startDate": "2011-10",
+      "highlights": [
+        "Professor, <a href='http://www.sheffield.ac.uk/eee'>Electronic and Electrical Engineering Department</a>.",
+        "Director, <a href='http://www.cistib.org'>CISTIB Centre for Computational Imaging &amp; Simulation Technologies in Biomedicine</a>.",
+        "Academic Director, <a href='http://www.sheffield.ac.uk/eee/pgt/bioengineering'>MSc Bioengineering: Imaging &amp; Sensing</a>."
+      ],
+      "url": "",
+      "endDate": "2018-07"
+    },
+    {
+      "position": "Associate Professor",
+      "institution": "Universitat Pompeu Fabra",
+      "location": "Barcelona, Spain",
+      "startDate": "2004-08",
+      "highlights": [
+        "Associate Professor, <a href='http://www.upf.edu/etic'>Information &amp; Communications Technologies Department</a>, 2007-2012.",
+        "Director, <a href='http://www.cistib.org'>CISTIB Centre for Computational Imaging &amp; Simulation Technologies in Biomedicine</a>, 2004-2011.",
+        "Dean (by Election), <a href='http://www.upf.edu/esup'>Escuela Superior Politécnica</a>, 2008–2011.",
+        "Dean (Acting), Escuela Superior Politécnica, 2008–2008. Designated by the Rector.",
+        "Dean of the Studies of Telecommunications Engineering, Escuela Superior Politécnica, 2007–2008. Designated by the Rector.",
+        "Ramón y Cajal Research Fellow, 2004–2007."
+      ],
+      "url": "",
+      "endDate": "2011-09"
+    },
+    {
+      "position": "ICREA-Academia Researcher",
+      "institution": "Institucio Catalana de Recerca i Estudis Avançats",
+      "location": "Barcelona, Spain",
+      "startDate": "2009-01",
+      "highlights": [
+        "Selected by the ICREA-Academia Program to conduct intensive research with very reduced teaching."
+      ],
+      "url": "",
+      "endDate": "2012-09"
+    },
+    {
+      "position": "Ramón y Cajal Research Fellow",
+      "institution": "University of Zaragoza",
+      "location": "Zaragoza, Spain",
+      "startDate": "2001-05",
+      "highlights": [
+        "Ramón y Cajal Research Fellow, Electronic and Communications Department, Oct 2003 – Sep 2004.",
+        "Group Leader, Computer Vision Lab, Electronic and Communications Department, Sep 2001 – Aug 2004.",
+        "Assistant Professor, Electronic and Communications Department, Sep 2001 to Sep 2003.",
+        "Post-doctoral researcher, Electronic and Communications Department, May 2001 to Sep 2001."
+      ],
+      "url": "",
+      "endDate": "2004-08"
+    },
+    {
+      "position": "Visiting Graduate Scholar",
+      "institution": "Imperial College London",
+      "location": "London, UK",
+      "startDate": "2000-07",
+      "highlights": [
+        "Visiting PhD Student in the groups of Prof D Rueckert and Prof Dave Hawkes."
+      ],
+      "url": "",
+      "endDate": "2000-12"
+    },
+    {
+      "position": "PhD Student",
+      "institution": "University of Utrecht",
+      "location": "Utrecht, The Netherlands",
+      "startDate": "1997-09",
+      "highlights": [
+        "Researcher in Training at the Image Sciences Institute, Utrecht University Medical Centre.",
+        "Scholarship Holder by Innovatiegericht Onderzoeksprogramma (IOP)."
+      ],
+      "url": "",
+      "endDate": "2001-08"
+    },
+    {
+      "position": "PhD Student",
+      "institution": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Spain",
+      "startDate": "1996-09",
+      "highlights": [
+        "Researcher in Training.",
+        "Scholarship Holder by Comissión Interministerial de Ciencia y Tecnología (CIRIT)."
+      ],
+      "url": "",
+      "endDate": "1997-08"
     }
   ],
   "education": [
     {
-      "institution": "IFISC, University of the Balearic Islands, Spain",
-      "url": "https://ifisc.uib-csic.es/en/",
-      "area": "Delay in Complex Systems for Transport Systems, in the context of the <a href='https://ifisc.uib-csic.es/en/research/projects/arctic/'>ARCTIC (Air Transport as Information and Computation)</a> project",
-      "studyType": "PhD",
-      "startDate": "2023-11-01",
-      "summary": "PhD in Complex Systems, supervised by <a href='https://www.ifisc.uib-csic.es/en/people/massimiliano-zanin/'>Dr. Massimiliano Zanin</a>"
-    },
-    {
-      "institution": "University of Münster, Germany",
-      "url": "https://www.uni-muenster.de/Physik/en/studying/master/physics.html",
-      "area": "Physics with major in Nonlinear Dynamics and Theoretical Physics",
-      "studyType": "Master",
-      "startDate": "2021-10-01",
-      "endDate": "2023-07-24",
-      "summary": "Semester abroad at the <a href='http://www.uib.cat/'>University of the Balearic Islands</a>, Spain, at <a href='https://ifisc.uib-csic.es/en/'>IFISC</a>.<br>And self-organized year abroad for the Master's thesis at <a href='https://nerds.itu.dk/'>NERDS</a>, <a href='https://en.itu.dk/'>IT University of Copenhagen</a>, Denmark",
-      "score": "",
-      "courses": [
-        "Complex Systems",
-        "Dynamical Systems and Chaos",
-        "Pattern Formation",
-        "Cooperative and Critical Phenomena",
-        "Standard Model of Particle Physics",
-        "Seminar on Theory of Particles and Fields",
-        "Quantum Field Theory",
-        "Path Integral Formulation of Quantum Mechanics",
-        "Lasers and Quantum Optics",
-        "Quantum Computers and Simulators"
+      "institution": "Spanish Ministry of Education and Sciences",
+      "url": "",
+      "location": "Madrid, Spain",
+      "name": "Full Professor Habilitation",
+      "startDate": "2010",
+      "endDate": "2010",
+      "notes": [
+        "National Habilitation in Signal Theory and Communications."
       ]
     },
     {
-      "institution": "University of Münster, Germany",
-      "url": "https://www.uni-muenster.de/FB10/Studium/studiengaenge/bsc_informatik.shtml",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-10-01",
-      "endDate": "2021-07-13",
-      "score": "",
-      "courses": [
-        "Efficient Algorithms",
-        "Computability Theory",
-        "Functional Programming",
-        "Software Engineering",
-        "Pattern Recognition and Machine Learning",
-        "Computer Architecture and Operating Systems",
-        "Database Systems",
-        "Computer Networks and their Performance",
-        "Calculus and Linear Algebra"
+      "institution": "Spanish Ministry of Education and Sciences",
+      "url": "",
+      "location": "Madrid, Spain",
+      "name": "Associate Professor Habilitation",
+      "startDate": "2005",
+      "endDate": "2005",
+      "notes": [
+        "National Habilitation in Signal Theory and Communications."
       ]
     },
     {
-      "institution": "University of Münster, Germany",
-      "url": "https://www.uni-muenster.de/Physik/en/studying/bachelor/physics.html",
-      "area": "Physics",
-      "studyType": "Bachelor",
-      "startDate": "2017-10-01",
-      "endDate": "2020-09-15",
-      "score": "",
-      "courses": [
-        "Atomic and Quantum Mechanics",
-        "General Relativity",
-        "Integration Theory",
-        "Signal Processing",
-        "Computational Physics",
-        "Electromagnetism",
-        "Thermodynamics"
+      "institution": "Utrecht University",
+      "url": "",
+      "location": "Utrecht, The Netherlands",
+      "name": "PhD Medicine",
+      "startDate": "2001",
+      "endDate": "2001",
+      "notes": [
+        "PhD in Radiology and Imaging Sciences, Utrecht University Medical Center, 1997-2001.",
+        "PhD Thesis on <em>Three-dimensional model-based analysis of vascular and cardiac images</em>."
+      ]
+    },
+    {
+      "institution": "Universitat Poliècnica de Catalunya",
+      "url": "",
+      "location": "Barcelona, Spain",
+      "name": "BSc/MSc Telecommunications Engineering",
+      "startDate": "1996",
+      "endDate": "1996",
+      "notes": [
+        "BSc/MSc in Electronics Speciality with Bioengineering, 1992-1996.",
+        "MSc Thesis on <em>Quantification and Noise Modelling in Electrical Impedance Tomography</em>."
       ]
     }
   ],
-  "awards": [
+  "scholarships_and_fellowships": [
     {
-      "title": "VCD Promotional Award for Theses",
-      "url": "https://diy.vcd.org/beitrag/vcd-award-sonderpreis-2024-das-sind-unsere-gluecklichen-preistraegerinnen",
-      "date": "2024-09-06",
-      "awarder": "<a href='https://www.vcd.org/'>Verkehrsclub Deutschland e.V. (VCD)</a> and <a href='https://www.datagon.de/en/'>Datagon GmbH</a>",
-      "summary": "First place for special price with Master's thesis with focus on sustainable transportation transition."
+      "award": "European Research Council (Advanced Grant): Frontier Research Guarantee",
+      "institution": "University of Manchester; funded by Engineering and Physical Research Council.",
+      "location": "Manchester, UK",
+      "startDate": "2024",
+      "endDate": "2029",
+      "url": "https://google.com"
     },
     {
-      "title": "Promotion Award for Applied Computer Science",
-      "url": "https://www.wiwi.uni-muenster.de/fakultaet/de/news/3841",
-      "date": "2022-04",
-      "awarder": "School of Business and Economics, University of Münster in cooperation with <a href='https://www.ihk.de/nordwestfalen/en/'>IHK Nord Westfalen</a>",
-      "summary": "Nominated for the best Bachelor's thesis in Applied Computer Science, along two Master's theses and one PhD thesis"
+      "award": "Royal Academy of Engineering Chair in Emerging Technologies",
+      "institution": "University of Leeds; funded by Royal Academy of Engineering.",
+      "location": "Leeds, UK",
+      "startDate": "2019",
+      "endDate": "2029"
+    },
+    {
+      "award": "Ramón y Cajal Research Fellowship",
+      "institution": "Universitat Pompeu Fabra; funded by Spanish Ministry of Science and Technology.",
+      "location": "Barcelona, Spain",
+      "startDate": "2004",
+      "endDate": "2007"
+    },
+    {
+      "award": "Ramón y Cajal Research Fellowship",
+      "institution": "Universidad de Zaragoza; funded by Spanish Ministry of Science and Technology.",
+      "location": "Zaragoza, Spain",
+      "startDate": "2003",
+      "endDate": "2004"
+    },
+    {
+      "award": "Innovatiegericht Onderzoek Programma (IOP) Visiting Scholar",
+      "institution": "Department of Computing, Imperial College London; funded by the Dutch Ministry of Economic Affairs.",
+      "location": "London, UK",
+      "startDate": "2000",
+      "endDate": "2000"
+    },
+    {
+      "award": "Predoctoral Scholarship (Assistant in Opleiding)",
+      "institution": "Image Sciences Institute, Department of Radiology and Nuclear Medicine, University Medical Center, Utrecht University; funded by Innovatiegericht Onderzoeks Program (IOP). Dutch Ministry of Economic Affairs.",
+      "location": "Utrecht, The Netherlands",
+      "startDate": "1997",
+      "endDate": "2001"
+    },
+    {
+      "award": "Predoctoral Scholarship for Training of Future Scientists",
+      "institution": "Department of Electronic Engineering, Technical University of Catalonia; funded by the Commission for Universities and Research, Government of Catalonia.",
+      "location": "Barcelona, Spain",
+      "startDate": "1997",
+      "endDate": "1997"
+    },
+    {
+      "award": "Undergraduate Researcher",
+      "institution": "Department of Electronic Engineering, Technical University of Catalonia; funded by Spanish Ministry of Education and Culture.",
+      "location": "Barcelona, Spain",
+      "startDate": "1996",
+      "endDate": "1997"
+    },
+    {
+      "award": "Undergraduate Studies Scholarship",
+      "institution": "Technical University of Catalonia; funded by Spanish Ministry of Science and Education.",
+      "location": "Barcelona, Spain",
+      "startDate": "1993",
+      "endDate": "1996"
     }
   ],
-  "certificates": [],
-  "publications": [],
-  "skills": [
+  "international_awards": [
     {
-      "name": "Programming Languages",
-      "level": "Master",
-      "keywords": [
-        "Python",
-        "R",
-        "LaTeX",
-        "C++",
-        "Java",
-        "SQL",
-        "Fortran",
-        "HTML"
-      ]
+      "award": "FREng, Royal Academy of Engineering",
+      "description": "Annually, up to 60 Fellows are typically elected to the Fellowship, recognising their outstanding and continuing contributions to the profession. They are distinguished by the FREng postnominal and join a community of almost 1,700 eminent engineers on a mission to use the power of engineering to build a sustainable society and create an inclusive economy that works for everyone. New Fellows are nominated and elected by existing Fellows.",
+      "location": "London, UK",
+      "date": "2023"
     },
     {
-      "name": "Frameworks",
-      "level": "Master",
-      "keywords": [
-        "Linux",
-        "Bash",
-        "Slurm",
-        "Conda-Forge & Mamba",
-        "NumPy, SciPy, Pandas & Matplotlib",
-        "Git/GitHub/GitLab"
-      ]
+      "award": "Highly Commended Paper, National Centre for 3Rs (NC3R)",
+      "description": "The highly commended paper reports the first in silico clinical trial for a medical device, exemplifying the potential of computer-based testing and trials to replace the use of animals and accurately predict the safety and efficacy of medical devices.",
+      "location": "London, UK",
+      "date": "2023"
     },
     {
-      "name": "Languages",
-      "level": "Master",
-      "keywords": [
-        "German",
-        "English",
-        "Spanish",
-        "Danish",
-        "Catalan",
-        "Latin"
-      ]
+      "award": "MICCAI Fellow, Medical Image Computing and Computer-Assisted Interventions Society",
+      "description": "<em>\"For outstanding contributions to computational medical imaging.\"</em>. MICCAI Fellowship is bestowed upon community members, as identified by their peers, in recognition of their exceptional contributions to Medical Image Computing and/or Computer-assisted Interventions and to their contributions to the MICCAI society as a whole. The MICCAI Society Fellows election process consists of Fellows nominating and then voting for candidates, with the top 3 candidates with the most votes recommended for election. The MICCAI Society Board then ratified the recommendations of the Fellows.",
+      "location": "Minnesota, USA",
+      "date": "2021"
+    },
+    {
+      "award": "IEEE EMBS Technical Achievement Award, IEEE Engineering in Medicine and Biology Society",
+      "description": "<em>\"For pioneering contributions in model-based image computing and image-based computational modelling in medicine with clinical and innovation impact\"</em>. This award is given annually by IEEE EMBS “to recognize an individual(s) for outstanding achievement, contribution(s), and/or innovation in a technical area of biomedical engineering”.",
+      "location": "New York, USA",
+      "date": "2021"
+    },
+    {
+      "award": "SPIE Fellow, Society for Photo-optical Instrumentation Engineers",
+      "description": "<em>\"for achievements in statistical methods in medical image computing and image-based computational modelling\"</em>. SPIE Fellows who have become distinguished through outstanding contributions in relevant technologies, service to Society, and service to the general optics and photonics community.",
+      "location": "Bellingham, USA",
+      "date": "2020"
+    },
+    {
+      "award": "IEEE Fellow, IEEE Engineering in Medicine and Biology Society",
+      "description": "<em>“for contributions medical image analysis and image-based computational physiology”</em>. The IEEE Board of Directors confers the IEEE Grade of Fellow upon someone with an outstanding record of accomplishments in any of the IEEE fields of interest. The total number selected in any one year cannot exceed one-tenth of one percent of the total voting membership. IEEE Fellow is the highest grade of membership and is recognised by the technical community as a prestigious honour and an important career achievement.",
+      "location": "New York, USA",
+      "date": "2014"
+    },
+    {
+      "award": "EAMBES Fellow, European Alliance for Medical and Biological Engineering &amp; Science",
+      "description": "The division of EAMBES Fellows is formed by individuals who have distinguished themselves by identifiable contributions or accomplishments in Medical and Biological Engineering and Science.",
+      "location": "Brussels, BE",
+      "date": "2013"
+    },
+    {
+      "award": "IEEE EMBS Early Career Award, IEEE Engineering in Medicine and Biology Society",
+      "description": "<em>\"for outstanding contributions to medical image computing, especially cardiovascular and cerebrovascular image analysis using model- and registration-based methods\"</em>. The award is presented annually to an individual who has made significant technological or theoretical contributions to the field of Biomedical Engineering within ten years of completing his or her highest degree. These contributions must represent meritorious achievement, exemplary technical contribution, or educational contribution to the field as evidenced by innovative research, design, product development, patents or publications.",
+      "location": "New York, USA",
+      "date": "2006"
     }
   ],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "projects": []
+  "domestic_awards": [
+    {
+      "award": "Universitat Pompeu Fabra",
+      "description": "University Medal <em>\"for the Service as Dean of the Escuela Politècnica Superior\"</em>",
+      "location": "Barcelona, Spain",
+      "date": "2011"
+    },
+    {
+      "award": "Universitat Pompeu Fabra",
+      "description": "Social Council Prize Teaching Initiative Prize to the Escuela Politécnica Superior. <em>“For the development of a mentorship program within the EnginyCat initiative to attract and retain engineering vocations”</em>. This prize was awarded to the Escuela Politécnica Superior of UPF whose Dean was Prof Frangi and was given by the maximum board of the University whose responsibility is to secure and oversee the social implication of the University and its community. The prize was awarded in 2010 <em>ex-aequo</em> with Verónica Moreno, Davinia Hernández and Vanessa Daza, members of the same leadership team.",
+      "location": "Barcelona, Spain",
+      "date": "2010"
+    },
+    {
+      "award": "Institució Catalana de Recerca i Estudis Avançats",
+      "description": "ICREA-Academia Prize. ICREA-Academia is a 5-year prize comprising a grant of 250k€, half of which is a personal salary complement, and the remainder is intended for UPF to cover a substantial teaching reduction during the 5-year period to focus and consolidate its own research programme. This prize was awarded in 2008 to 40 outstanding and full-time tenured academics from all disciplines of sciences who develop their activity.",
+      "location": "Barcelona, Spain",
+      "date": "2009"
+    },
+    {
+      "award": "Universitat Pompeu Fabra",
+      "description": "Program of Research Intensification (Programa I3). UPF awarded me the first of three positions among the tenured faculty of the University by which I could have a 100% reduction of my teaching load during a first year and up to 66% reduction during the second and third years. The Program I3 is mean to award and stimulate outstanding research dedication.",
+      "location": "Barcelona, Spain",
+      "date": "2008"
+    },
+    {
+      "award": "Universitat Pompeu Fabra",
+      "description": "Social Council Prize Knowledge Transfer Prize in the areas of Communication and Information Technologies. <em>“For performing applied research in the ICT domain, in computational analysis and modelling from biomedical images, with a demonstrated practical value through relevant international projects, including industrial involvement and applicability to the improvement in disease diagnosis and their treatment”</em>. This prize was awarded by the maximum board of the University whose responsibility is to secure and oversee the social engagement of the University and its community.",
+      "location": "Barcelona, Spain",
+      "date": "2008"
+    },
+    {
+      "award": "Universitat Pompeu Fabra",
+      "description": "Social Council Prize Teaching Initiative Prize to the Escuela Politécnica Superior. <em>“For the Introduction to the University Course, introducing first-year students to the structure, organization and services of the School and the University; to the working methodology, to study techniques and problem-solving strategies and to their professional prospects”</em>. This prize was awarded to the Escuela Politécnica Superior of UPF whose Dean was Prof Frangi and was given by the maximum board of the University whose responsibility is to secure and oversee the social implication of the University and its community. The prize was awarded in 2008 ex-aequo with the Escuela de Ciencias de la Salud y de la Vida.",
+      "location": "Barcelona, Spain",
+      "date": "2008"
+    },
+    {
+      "award": "Official College of Telecommunications Engineers",
+      "description": "ADESLAS Prize on New Technologies in Communications applied to Health and Medicine",
+      "location": "Madrid, Spain",
+      "date": "2004"
+    },
+    {
+      "award": "Royal Academy of Medicine Prize",
+      "description": "for work on endothelial function",
+      "location": "Zaragoza, Spain",
+      "date": "2002"
+    },
+    {
+      "award": "Official College of Telecommunications Engineers",
+      "description": "ADESLAS Prize on New Technologies in Communications applied to Health and Medicine",
+      "location": "Madrid, Spain",
+      "date": "2002"
+    }
+  ]
 }
