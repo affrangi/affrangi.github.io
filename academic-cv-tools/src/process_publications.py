@@ -61,7 +61,7 @@ for file_path, category in zip(file_paths, categories):
     with open(bibtex_output, "w") as bibtex_file:
         bibtex_file.write(json_bib_to_bibtex(json_bib))
 
-joined_bibtex_path = f"{output_dir()}/bibliography.bib"
+joined_bibtex_path = f"{output_dir()}/publications.bib"
 
 # Join all bibtex files into a single file
 with open(joined_bibtex_path, "w") as all_bibtex_file:
