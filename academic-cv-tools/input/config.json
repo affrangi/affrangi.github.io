@@ -1,0 +1,33 @@
+{
+    "bibliography": [
+        {
+            "file": "frangi_journals.bib",
+            "category": "journals"
+        },
+        {
+            "file": "frangi_books.bib",
+            "category": "books"
+        },
+        {
+            "file": "frangi_inbooks.bib",
+            "category": "chapters"
+        },
+        {
+            "file": "frangi_reports.bib",
+            "category": "reports"
+        },
+        {
+            "file": "frangi_patents.bib",
+            "category": "patents"
+        },
+        {
+            "file": "frangi_outreach.bib",
+            "category": "outreach"
+        }
+    ],
+    "education": "education.tex",
+    "experience": "experience.tex",
+    "scholarships_and_fellowships": "fellowships.tex",
+    "funding": "funding.tex",
+    "awards": "honors.tex"
+}
