@@ -32,20 +32,34 @@ layout: page
             {% endcapture %}
             <div class="alumni-name-container">
               <h2>
-                {{ profile.name }}
+                {{ profile.author }}
                 </h2>
                 {{ linkedin_icon }}
             </div>
             {% if profile.position %}
               <div class="alumni-position">{{ profile.position }}</div>
             {% endif %}
-            <span class="badge font-weight-bold text-uppercase align-middle" style="min-width: 75px"> {{ profile.year }} </span>
-            {% capture pdf_icon %} 
-            {% if profile.pdf and profile.pdf != "" %}
-              {% if profile.pdf contains 'http' %}
-                {% assign pdf_path = profile.pdf %}
+            <p>
+              <span class="badge font-weight-bold text-uppercase align-middle" style="min-width: 75px"> {{ profile.year }} </span>
+              {% if profile.school and profile.school != "" %}
+                {% assign location = profile.school | strip %}
+                {% if profile.location and profile.location != "" %}
+                  {% assign location = location | append: " (" | append: profile.location | append: ")" %}
+                {% endif %}
               {% else %}
-                {% assign pdf_path = profile.pdf | prepend: 'assets/pdf/alumni/' %}
+                {% assign location = profile.location | strip %}
+              {% endif %}
+              {% if location != "" %}
+                <i class="ml-2 fa-solid fa-location-dot iconlocation"></i>
+                <em>{{ location }}</em>
+              {% endif %}
+            </p>
+            {% capture pdf_icon %} 
+            {% if profile.url and profile.url != "" %}
+              {% if profile.url contains 'http' %}
+                {% assign pdf_path = profile.url %}
+              {% else %}
+                {% assign pdf_path = profile.url | prepend: 'assets/pdf/alumni/' %}
               {% endif %}
                 <a href="{{ pdf_path }}" title="PDF"><i class="alumni-icon fa fa-file-pdf"></i></a>
               {% endif %}
@@ -56,6 +70,7 @@ layout: page
               </em>
               {{ pdf_icon }}
             </p>
+            <p><b>Supervision:</b> {{ profile.editor -}}.</p>
         </div>
       {% endfor %}
     {% endif %}
