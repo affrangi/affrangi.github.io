@@ -1,5 +1,23 @@
 [
     {
+        "position": "Deputy Director Teaching Assignation, University Pompeu Fabra, Spain",
+        "image": "federicosunko.png",
+        "editor": "Frangi, A. F.",
+        "school": "Universidad de Zaragoza",
+        "type": "PhD Thesis",
+        "note": "Cum Laude",
+        "url": "http://www.cistib.org/afrangi/pdf/thesis/fsukno.pdf",
+        "location": "Zaragoza, Spain",
+        "day": "21",
+        "month": "May",
+        "year": "2008",
+        "author": "Sukno, F. M.",
+        "title": "Invariance and Reliability for Statistical Shape Models",
+        "ENTRYTYPE": "phdthesis",
+        "ID": "PhD-Sukno2008",
+        "date": "2008-05-21"
+    },
+    {
         "position": "Lead Image Processing Engineer, Intrasense, Greater Montpellier Metropolitan Area, France",
         "linkedin": "https://www.linkedin.com/in/eoubel/",
         "image": "estanislaooubel.jpeg",
@@ -558,24 +576,6 @@
         "ENTRYTYPE": "phdthesis",
         "ID": "PhD-Bi2024",
         "date": "2024-05-8"
-    },
-    {
-        "position": "Postdoctoral researcher at EMBL-EBI",
-        "linkedin": "https://www.linkedin.com/in/rodrigo-bonazzola/",
-        "image": "rbonazzola.jpg",
-        "pubstate": "Viva held",
-        "editor": "Frangi, A F and Ravikumar, N",
-        "school": "University of Leeds",
-        "type": "PhD Thesis",
-        "location": "Leeds, UK",
-        "day": "13",
-        "month": "May",
-        "year": "2024",
-        "author": "Bonazzola, Rodrigo",
-        "title": "Statistical learning methods in deep cardiac phenotyping for population imaging and imaging genetics",
-        "ENTRYTYPE": "phdthesis",
-        "ID": "PhD-Bonazzola2024",
-        "date": "2024-05-13"
     },
     {
         "position": "Research Associate at The University of Manchester",
