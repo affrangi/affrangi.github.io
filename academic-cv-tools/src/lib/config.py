@@ -29,6 +29,10 @@ def read_cv_config(config_path: str, section: str) -> tuple[str, str]:
     output_file = input_file.replace(".tex", ".json")
 
     input_path = f"{input_dir()}/{input_file}"
-    output_path = f"{output_dir()}/{output_file}"
+
+    if section == "alumni":
+        output_path = f"{output_dir()}/alumni.json"
+    else:
+        output_path = f"{output_dir()}/{output_file}"
 
     return input_path, output_path

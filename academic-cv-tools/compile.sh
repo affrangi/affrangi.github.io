@@ -34,6 +34,10 @@ python3 "$SCRIPT_DIR/src/process_funding.py" "$SCRIPT_DIR/input/config.json"
 echo "Processing publications data..."
 python3 "$SCRIPT_DIR/src/process_publications.py" "$SCRIPT_DIR/input/config.json"
 
+# Process the alumni data
+echo "Processing alumni data..."
+python3 "$SCRIPT_DIR/src/process_alumni.py" "$SCRIPT_DIR/input/config.json"
+
 # Clean up the output directory
 echo "Cleaning up output directory..."
 rm -rf "$SCRIPT_DIR/output/experience.json" \
