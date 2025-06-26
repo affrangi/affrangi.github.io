@@ -29,22 +29,13 @@ def clean_cv(content: str | list[str]) -> str:
 
     content = "\n".join(lines)  # Join lines into a single string
 
-    # content = re.sub(r"\{\n", "{", content)
-    # content = re.sub(r"\n\}", "}", content)
-    # content = re.sub(r"\[\n", "[", content)
-    # content = re.sub(r"\n\]", "]", content)
-    # content = re.sub(
-    #     r"([^\}\]])\n", r"\1 ", content
-    # )  # Remove newlines inside braces and brackets
-    # content = re.sub(r"\\begin\{cvitems\}\n", r"", content)
-    # content = re.sub(r"\n\\end\{cvitems\}", r"", content)
-    content = re.sub(r"\n", "", content)
+    content = re.sub(r"\n", " ", content)
     content = re.sub(r"\\begin\{cvitems\}", "", content)
     content = re.sub(r"\\end\{cvitems\}", "", content)
     content = re.sub(r"\\cv", r"\n\\cv", content)
     content = re.sub(r"\\end", r"\n\\end", content)
     content = re.sub(r"\\begin", r"\n\\begin", content)
-    # content = re.sub(r"\n(?=\\item)", "", content)
+
     return content
 
 
@@ -133,7 +124,7 @@ def find_optional_args(entry: str) -> list[str]:
     list[str]
         A list of optional arguments found in the entry.
     """
-    optional_args = re.findall(r"\\cv[^\[]*((?:\[.*?\])+)", entry)
+    optional_args = re.findall(r"\\cv[^\[]*((?:\[.*?\]\s*)+)", entry)
 
     if not optional_args:
         return []
