@@ -7,7 +7,7 @@ layout: page
       {% assign profiles = site.data.alumni | sort: "year" | reverse %}
       {% for profile in profiles %}
         <hr>
-        <div class="profile float-{% cycle 'left', 'right' %}">
+        <div class="profile float-left">
           {% if profile.image and profile.image != "" %}
             {% if profile.image contains 'http' %}
               {% assign profile_image_path = profile.image %}
