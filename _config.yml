@@ -16,7 +16,7 @@ footer_text: >
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: >
   Alejandro Frangi, FREng, FIEEE, University of Manchester, Manchester,
-  Computational Medicine, Christabel Pankhurst, Insilico Medicine,
+  Computational Medicine, Christabel Pankhurst, in-silico medicine,
   Health Technology.
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -79,10 +79,10 @@ og_image: assets/img/profile.jpg
 
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
-bluesky_url: # your bluesky URL
+bluesky_url: afrangi.bsky.social # your bluesky URL
 dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
-facebook_id: # your facebook id
+#facebook_id: affrangi # your facebook id
 flickr_id: # your flickr id
 github_username: affrangi # your GitHub user name
 gitlab_username: # your GitLab user name
@@ -102,15 +102,15 @@ publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: Alejandro-Frangi # your profile on ResearchGate
 scholar_userid: 9fGrB0sAAAAJ # your Google Scholar ID
-scopus_id: # your profile on Scopus
-semanticscholar_id: Alejandro-F-Frangi/1681129 # your Semantic Scholar ID
+scopus_id: 7005249248 # your profile on Scopus
+#semanticscholar_id: Alejandro-F-Frangi/1681129 # your Semantic Scholar ID
 spotify_id: # your spotify id
 stackoverflow_id: # your stackoverflow id
 telegram_username: # your Telegram user name
 unsplash_id: # your unsplash id
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-wikidata_id: Q29349052 # your wikidata id
+wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: affrangi # your X handle
