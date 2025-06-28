@@ -21,7 +21,6 @@ h1,h2 {
   color: var(--global-theme-color);
 }
 
-
 .muted {
   color: var(--global-text-color-light);
 }
@@ -674,6 +673,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
+
   margin-top: 2rem;
 
   h1 {
@@ -705,6 +705,10 @@ footer.sticky-bottom {
     padding: 0;
     margin-top: 0;
 
+    .bib-citation-txt {  
+      font-size: 0.85rem; 
+    } 
+    
     li {
       margin-bottom: 1rem;
 
