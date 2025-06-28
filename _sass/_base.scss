@@ -712,6 +712,7 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+   
       .preview {
       }
 
@@ -787,6 +788,12 @@ footer.sticky-bottom {
         a.award.btn {
           border-color: var(--global-highlight-color);
         }
+        a.btn.category-badge {
+        background-color: var(--global-theme-color); 
+        color: white;
+        border: none;
+      } 
+
       }
 
       .badges {
