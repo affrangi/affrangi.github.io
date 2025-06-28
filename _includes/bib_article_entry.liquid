@@ -14,13 +14,13 @@
     <!-- Journal Info -->
     {% assign journal_info = entry.journal %}
     {% if entry.volume %}
-        {% assign journal_info = journal_info | append: ', Vol. ' | append: entry.volume %}
+        {% assign journal_info = journal_info | append: ', ' | append: entry.volume %}
     {% endif %}
     {% if entry.number %}
-        {% assign journal_info = journal_info | append: ' (nº ' | append: entry.number | append: ')' %}
+        {% assign journal_info = journal_info | append: '(' | append: entry.number | append: ')' %}
     {% endif %}
     {% if entry.pages %}
-        {% assign journal_info = journal_info | append: ', pp. ' | append: entry.pages | append: '' %}
+        {% assign journal_info = journal_info | append: ':' | append: entry.pages | append: '' %}
     {% endif %}
     <em>{{ journal_info }}.</em>
     <!-- End Journal Info -->
