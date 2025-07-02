@@ -8,7 +8,6 @@ subtitle: >
   Director, The Christabel Pankhurst Institute |
   Lead, NIHR Manchester Biomedical Research Centre, Digital Infrastructure
 
-
 profile:
   align: right
   image: profile.jpg
@@ -24,7 +23,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am Professor **Alejandro Frangi** *FREng FIEEE*, and I hold the *Bicentenary Turing Chair in Computational Medicine* at the [University of Manchester](https://www.manchester.ac.uk/). In my role as Director of the [Christabel Pankhurst Institute](https://www.pankhurst.manchester.ac.uk/), I work to support health tech innovation translation in Greater Manchester. 
+I am Professor **Alejandro Frangi** *FREng FIEEE*, and I hold the **Bicentenary Turing Chair in Computational Medicine** at the [University of Manchester](https://www.manchester.ac.uk/). In my role as Director of the [Christabel Pankhurst Institute](https://www.pankhurst.manchester.ac.uk), I work to support health tech innovation translation in Greater Manchester. 
 
 I have the privilege of leading the [UK CEiRSI Centre of Excellence on in-Silico Regulatory Science and Innovation](https://www.linkedin.com/showcase/105821448/), which seeks to advance in silico medicine across the UK. My research centres on *AI and in silico technologies*, and I endeavour to foster collaboration between academia, industry, and regulators to support healthcare innovation. I work at the intersection of *computational modelling* and *medical science*, with the goal of contributing to improved patient care through innovative technologies and interdisciplinary collaboration. 
 
