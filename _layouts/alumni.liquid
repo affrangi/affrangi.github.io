@@ -70,7 +70,20 @@ layout: page
               </em>
               {{ pdf_icon }}
             </p>
-            <p><b>Supervision:</b> {{ profile.editor -}}.</p>
+            <p>
+              <b>Supervision:</b>
+              {% assign supervisors_array = profile.editor | split: ' and ' %}
+              {% assign supervisors_clean = '' %}
+              {% for s in supervisors_array %}
+                {% assign s_clean = s | strip | replace: ', ', ' ' %}
+                {% if forloop.first %}
+                  {% assign supervisors_clean = s_clean %}
+                {% else %}
+                  {% assign supervisors_clean = supervisors_clean | append: ', ' | append: s_clean %}
+                {% endif %}
+              {% endfor %}
+              {{ supervisors_clean }}.
+            </p>
         </div>
       {% endfor %}
     {% endif %}
