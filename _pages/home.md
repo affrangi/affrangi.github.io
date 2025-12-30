@@ -5,8 +5,7 @@ permalink: /
 subtitle: >
   Bicentenary Turing Chair in Computational Medicine | 
   Royal Academy of Engineering Chair in Emerging Technologies |
-  Director, The Christabel Pankhurst Institute |
-  Lead, NIHR Manchester Biomedical Research Centre, Digital Infrastructure
+  Executive Director, UK Centre of Excellence on In-Silico Regulatory Science and Innovation | Lead, NIHR Manchester Biomedical Research Centre, Digital Infrastructure
 
 profile:
   align: right

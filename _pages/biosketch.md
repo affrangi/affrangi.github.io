@@ -9,7 +9,7 @@ description: Overview of my academic and professional background.
 
 ## overview
 
-**Professor Alejandro Frangi FREng FIEEE** holds the Bicentenary Turing Chair in Computational Medicine at the University of Manchester. In his role as Director of the Christabel Pankhurst Institute, he works to support health tech innovation translation in Greater Manchester.
+**Professor Alejandro Frangi FREng FIEEE** holds the Bicentenary Turing Chair in Computational Medicine at the University of Manchester. He was Director of the Christabel Pankhurst Institute (2023-2025), where he supported health tech innovation translation in Greater Manchester.
 
 He has the privilege of leading the UK CEiRSI Centre of Excellence on in-Silico Regulatory Science and Innovation, which seeks to advance in silico medicine across the UK. His research centres on AI and in silico technologies, and he endeavours to foster collaboration between academia, industry, and regulators to support healthcare innovation. He works at the intersection of computational modelling and medical science, with the goal of contributing to improved patient care through innovative technologies and interdisciplinary collaboration.
 
