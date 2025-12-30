@@ -1,6 +1,6 @@
 [
     {
-        "position": "Deputy Director Teaching Assignation, University Pompeu Fabra, Spain",
+        "position": "Deputy Director Teaching, University Pompeu Fabra, Spain",
         "image": "federicosunko.png",
         "editor": "Frangi, A. F.",
         "school": "Universidad de Zaragoza",
@@ -633,25 +633,6 @@
         "date": "2024-07-9"
     },
     {
-        "position": "",
-        "linkedin": "https://www.linkedin.com/in/shokoufeh-golshani-7869b37a/",
-        "image": "shokoufehgolshani.jpg",
-        "pubstate": "Viva held",
-        "editor": "Frangi, A F and Schneider, J E",
-        "school": "University of Leeds",
-        "type": "PhD Thesis",
-        "url": "https://etheses.whiterose.ac.uk/id/eprint/35728/",
-        "location": "Leeds, UK",
-        "day": "23",
-        "month": "October",
-        "year": "2024",
-        "author": "Shokoufeh Golshani",
-        "title": "Accelerating cardiac diffusion MRI: concepts and applications",
-        "ENTRYTYPE": "phdthesis",
-        "ID": "PhD-Golshani2024",
-        "date": "2024-10-23"
-    },
-    {
         "position": "Postdoctoral Research Associate at the University of York",
         "linkedin": "https://www.linkedin.com/in/yash-deo-73b88995/",
         "image": "deoyash.webp",
@@ -683,7 +664,7 @@
         "day": "18",
         "month": "March",
         "year": "2025",
-        "author": "Fengmin Lin",
+        "author": "Fengming Lin",
         "title": "Vessel Tree Segmentation and Modality Agnostic Aneurysm Detection",
         "ENTRYTYPE": "phdthesis",
         "ID": "PhD-Lin2025",
@@ -708,25 +689,8 @@
         "date": "2025-02-7"
     },
     {
-        "position": "Research Fellow, School of Biomedical Engineering, Shenzhen University, China",
-        "image": "ninacheng.jpg",
-        "pubstate": "Viva held",
-        "editor": "Ravikumar, N and Frangi, A F",
-        "school": "University of Leeds",
-        "type": "PhD Thesis",
-        "url": "https://etheses.whiterose.ac.uk/id/eprint/36801/",
-        "location": "Leeds, UK",
-        "day": "19",
-        "month": "August",
-        "year": "2025",
-        "author": "Nina Cheng",
-        "title": "Deep generative model for synthesising and analysing cardiac magnetic resonance images",
-        "ENTRYTYPE": "phdthesis",
-        "ID": "PhD-Cheng2025",
-        "date": "2025-08-19"
-    },
-    {
         "position": "Research Associate, University of Manchester, UK",
+        "linkedin": "https://www.linkedin.com/in/haoran-dou-990433213",
         "image": "haorandou.jpg",
         "pubstate": "Viva held",
         "editor": "Frangi, A F and Ravikumar, N  and Virtanen S",
@@ -742,6 +706,25 @@
         "ENTRYTYPE": "phdthesis",
         "ID": "PhD-Dou2025",
         "date": "2025-03-24"
+    },
+    {
+        "position": "Lecturer, School of Mathematics and Computational Science, Xiangtan University, China",
+        "image": "qiongyaoliu.jpg",
+        "linkedin": "https://www.linkedin.com/in/qiongyao-liu-6141b81ba",
+        "pubstate": "Viva held",
+        "editor": "Frangi, A F and Lassila, T and Sarrami, A",
+        "school": "University of Leeds",
+        "type": "PhD Thesis",
+        "url": "https://etheses.whiterose.ac.uk/id/eprint/36791/",
+        "location": "Leeds, UK",
+        "day": "20",
+        "month": "May",
+        "year": "2025",
+        "author": "Qiongyao Liu",
+        "title": "Multi-Modal Deep Learning for Cardiovascular Disease Diagnosis and Risk Prediction Using Retinal Imaging",
+        "ENTRYTYPE": "phdthesis",
+        "ID": "PhD-Qiongyao2025",
+        "date": "2025-05-20"
     },
     {
         "position": "Research Associate, Queen Mary University of London, UK",
@@ -761,5 +744,42 @@
         "ENTRYTYPE": "phdthesis",
         "ID": "PhD-Maldonado2025",
         "date": "2025-07-1"
+    },
+    {
+        "position": "Research Fellow, School of Biomedical Engineering, Shenzhen University, China",
+        "image": "ninacheng.jpg",
+        "pubstate": "Viva held",
+        "editor": "Ravikumar, N and Frangi, A F",
+        "school": "University of Leeds",
+        "type": "PhD Thesis",
+        "url": "https://etheses.whiterose.ac.uk/id/eprint/36801/",
+        "location": "Leeds, UK",
+        "day": "19",
+        "month": "August",
+        "year": "2025",
+        "author": "Nina Cheng",
+        "title": "Deep generative model for synthesising and analysing cardiac magnetic resonance images",
+        "ENTRYTYPE": "phdthesis",
+        "ID": "PhD-Cheng2025",
+        "date": "2025-08-19"
+    },
+    {
+        "position": "Research Associate, UCL Queen Square Institute of Neurology, London",
+        "linkedin": "https://www.linkedin.com/in/shokoufeh-golshani-7869b37a/",
+        "image": "shokoufehgolshani.jpg",
+        "pubstate": "Viva held",
+        "editor": "Frangi, A F and Schneider, J E",
+        "school": "University of Leeds",
+        "type": "PhD Thesis",
+        "url": "https://etheses.whiterose.ac.uk/id/eprint/35728/",
+        "location": "Leeds, UK",
+        "day": "23",
+        "month": "October",
+        "year": "2024",
+        "author": "Shokoufeh Golshani",
+        "title": "Accelerating cardiac diffusion MRI: concepts and applications",
+        "ENTRYTYPE": "phdthesis",
+        "ID": "PhD-Golshani2024",
+        "date": "2024-10-23"
     }
 ]
