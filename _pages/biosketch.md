@@ -9,11 +9,7 @@ description: Overview of my academic and professional background.
 
 ## overview
 
-**Professor Alejandro Frangi FREng FIEEE** holds the Bicentenary Turing Chair in Computational Medicine at the University of Manchester. He was Director of the Christabel Pankhurst Institute (2023-2025), where he supported health tech innovation translation in Greater Manchester.
-
-He has the privilege of leading the UK CEiRSI Centre of Excellence on in-Silico Regulatory Science and Innovation, which seeks to advance in silico medicine across the UK. His research centres on AI and in silico technologies, and he endeavours to foster collaboration between academia, industry, and regulators to support healthcare innovation. He works at the intersection of computational modelling and medical science, with the goal of contributing to improved patient care through innovative technologies and interdisciplinary collaboration.
-
-He is also committed to sharing the potential benefits of in silico technologies with broader audiences through his recently launched podcast, **In Silico Trials, Real Impacts!**
+**Professor Alejandro Frangi FREng FIEEE** holds the Bicentenary Turing Chair in Computational Medicine at the University of Manchester with joint appointments in the Faculty of Biology, Medicine and Health and the Faculty of Science and Engineering. He leads the UK CEiRSI Centre of Excellence on in-Silico Regulatory Science and Innovation, which seeks to advance in silico medicine across the UK. His research centres on AI and in silico technologies, and he endeavours to foster collaboration between academia, industry, and regulators to support healthcare innovation. He works at the intersection of computational modelling and medical science, with the goal of contributing to improved patient care through innovative technologies and interdisciplinary collaboration.
 
 ## education
 
@@ -22,7 +18,7 @@ He is also committed to sharing the potential benefits of in silico technologies
 
 ## awards and honours
 
-**Distinguished Visiting Scholar Award**, 2024, Chinese Academy of Science
+• **Distinguished Visiting Scholar Award**, 2024, Chinese Academy of Science
 • **ELLIS Fellow**, 2024, European Laboratory for Learning and Intelligent Systems
 • **RAEng Fellow**, 2023, Royal Academy of Engineering
 • **AAIA-AI Fellow**, 2021, Association for the Advancement of Artificial Intelligence
