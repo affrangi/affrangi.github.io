@@ -22,17 +22,6 @@
       "url": "https://research.manchester.ac.uk/en/persons/alejandro-frangi"
     },
     {
-      "position": "Honorary Professor",
-      "institution": "Katholieke Universiteit Leuven",
-      "location": "Leuven, BE",
-      "startDate": "2019-12",
-      "highlights": [
-        "Department of Cardiovascular Sciences.",
-        "Department of Electrical Engineering."
-      ],
-      "url": ""
-    },
-    {
       "position": "Co-founder, Board Member, Chief Scientific Advisor",
       "institution": "adsilico Ltd",
       "location": "Leeds, UK",
@@ -88,6 +77,18 @@
       ],
       "url": "",
       "endDate": "2025-01"
+    },
+    {
+      "position": "Honorary Professor",
+      "institution": "Katholieke Universiteit Leuven",
+      "location": "Leuven, BE",
+      "startDate": "2019-12",
+      "highlights": [
+        "Department of Cardiovascular Sciences.",
+        "Department of Electrical Engineering."
+      ],
+      "url": "",
+      "endDate": "2024-12"
     },
     {
       "position": "Turing Fellow",
