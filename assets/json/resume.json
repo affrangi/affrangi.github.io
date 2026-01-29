@@ -395,6 +395,12 @@
   ],
   "international_awards": [
     {
+      "award": "Distinguished Scientist Award, CAS President's International Fellowship Initiative",
+      "description": "The Chinese Academy of Sciences (CAS) President’s International Fellowship Initiative (PIFI) is a prestigious funding programme designed to attract highly talented international scientists to conduct cooperative research at CAS-affiliated institutions. The fellowship aims to foster long-term collaborations and enhance the international research capacity of the academy. This award recognises internationally renowned scholars who have achieved significant breakthroughs in their fields. It facilitates short-term research visits to CAS institutes to provide lectures, mentor students, and initiate strategic scientific collaborations. I undertook a 2-week visit in January 2025 at the Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences (http://english.nimte.cas.cn)",
+      "location": "Ningbo, China",
+      "date": "2025"
+    },
+    {
       "award": "FREng, Royal Academy of Engineering",
       "description": "Annually, up to 60 Fellows are typically elected to the Fellowship, recognising their outstanding and continuing contributions to the profession. They are distinguished by the FREng postnominal and join a community of almost 1,700 eminent engineers on a mission to use the power of engineering to build a sustainable society and create an inclusive economy that works for everyone. New Fellows are nominated and elected by existing Fellows.",
       "location": "London, UK",
@@ -423,6 +429,12 @@
       "description": "<em>\"for achievements in statistical methods in medical image computing and image-based computational modelling\"</em>. SPIE Fellows who have become distinguished through outstanding contributions in relevant technologies, service to Society, and service to the general optics and photonics community.",
       "location": "Bellingham, USA",
       "date": "2020"
+    },
+    {
+      "award": "Visiting Scientist Award, CAS President's International Fellowship Initiative",
+      "description": "The Chinese Academy of Sciences (CAS) President’s International Fellowship Initiative (PIFI) is a prestigious funding programme designed to attract highly talented international scientists to conduct cooperative research at CAS-affiliated institutions. The fellowship aims to foster long-term collaborations and enhance the international research capacity of the academy. This fellowship supports established international researchers to undertake collaborative research projects at CAS institutes for durations typically ranging from two to nine months. It focuses on promoting joint scientific publications and the exchange of advanced methodologies and expertise. I undertook a mini-sabbatical in Summer 2019 at the Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences (http://english.nimte.cas.cn).",
+      "location": "Ningbo, China",
+      "date": "2019"
     },
     {
       "award": "IEEE Fellow, IEEE Engineering in Medicine and Biology Society",
