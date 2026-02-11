@@ -396,7 +396,7 @@
   "international_awards": [
     {
       "award": "Distinguished Scientist Award, CAS President's International Fellowship Initiative",
-      "description": "The Chinese Academy of Sciences (CAS) President’s International Fellowship Initiative (PIFI) is a prestigious funding programme designed to attract highly talented international scientists to conduct cooperative research at CAS-affiliated institutions. The fellowship aims to foster long-term collaborations and enhance the international research capacity of the academy. This award recognises internationally renowned scholars who have achieved significant breakthroughs in their fields. It facilitates short-term research visits to CAS institutes to provide lectures, mentor students, and initiate strategic scientific collaborations. I undertook a 2-week visit in January 2025 at the Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences (http://english.nimte.cas.cn)",
+      "description": "The Chinese Academy of Sciences (CAS) President's International Fellowship Initiative (PIFI) is a prestigious funding programme designed to attract highly talented international scientists to conduct cooperative research at CAS-affiliated institutions. The fellowship aims to foster long-term collaborations and enhance the international research capacity of the academy. This award recognises internationally renowned scholars who have achieved significant breakthroughs in their fields. It facilitates short-term research visits to CAS institutes to provide lectures, mentor students, and initiate strategic scientific collaborations. I undertook a 2-week visit in January 2025 at the Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences (\\url{http://english.nimte.cas.cn}).",
       "location": "Ningbo, China",
       "date": "2025"
     },
@@ -414,31 +414,31 @@
     },
     {
       "award": "MICCAI Fellow, Medical Image Computing and Computer-Assisted Interventions Society",
-      "description": "<em>\"For outstanding contributions to computational medical imaging.\"</em>. MICCAI Fellowship is bestowed upon community members, as identified by their peers, in recognition of their exceptional contributions to Medical Image Computing and/or Computer-assisted Interventions and to their contributions to the MICCAI society as a whole. The MICCAI Society Fellows election process consists of Fellows nominating and then voting for candidates, with the top 3 candidates with the most votes recommended for election. The MICCAI Society Board then ratified the recommendations of the Fellows.",
+      "description": "<em>``For outstanding contributions to computational medical imaging.''</em>. MICCAI Fellowship is bestowed upon community members, as identified by their peers, in recognition of their exceptional contributions to Medical Image Computing and/or Computer-assisted Interventions and to their contributions to the MICCAI society as a whole. The MICCAI Society Fellows election process consists of Fellows nominating and then voting for candidates, with the top 3 candidates with the most votes recommended for election. The MICCAI Society Board then ratified the recommendations of the Fellows.",
       "location": "Minnesota, USA",
       "date": "2021"
     },
     {
       "award": "IEEE EMBS Technical Achievement Award, IEEE Engineering in Medicine and Biology Society",
-      "description": "<em>\"For pioneering contributions in model-based image computing and image-based computational modelling in medicine with clinical and innovation impact\"</em>. This award is given annually by IEEE EMBS “to recognize an individual(s) for outstanding achievement, contribution(s), and/or innovation in a technical area of biomedical engineering”.",
+      "description": "<em>``For pioneering contributions in model-based image computing and image-based computational modelling in medicine with clinical and innovation impact''</em>. This award is given annually by IEEE EMBS ``to recognize an individual(s) for outstanding achievement, contribution(s), and/or innovation in a technical area of biomedical engineering''.",
       "location": "New York, USA",
       "date": "2021"
     },
     {
       "award": "SPIE Fellow, Society for Photo-optical Instrumentation Engineers",
-      "description": "<em>\"for achievements in statistical methods in medical image computing and image-based computational modelling\"</em>. SPIE Fellows who have become distinguished through outstanding contributions in relevant technologies, service to Society, and service to the general optics and photonics community.",
+      "description": "<em>``for achievements in statistical methods in medical image computing and image-based computational modelling''</em>. SPIE Fellows who have become distinguished through outstanding contributions in relevant technologies, service to Society, and service to the general optics and photonics community.",
       "location": "Bellingham, USA",
       "date": "2020"
     },
     {
       "award": "Visiting Scientist Award, CAS President's International Fellowship Initiative",
-      "description": "The Chinese Academy of Sciences (CAS) President’s International Fellowship Initiative (PIFI) is a prestigious funding programme designed to attract highly talented international scientists to conduct cooperative research at CAS-affiliated institutions. The fellowship aims to foster long-term collaborations and enhance the international research capacity of the academy. This fellowship supports established international researchers to undertake collaborative research projects at CAS institutes for durations typically ranging from two to nine months. It focuses on promoting joint scientific publications and the exchange of advanced methodologies and expertise. I undertook a mini-sabbatical in Summer 2019 at the Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences (http://english.nimte.cas.cn).",
+      "description": "The Chinese Academy of Sciences (CAS) President's International Fellowship Initiative (PIFI) is a prestigious funding programme designed to attract highly talented international scientists to conduct cooperative research at CAS-affiliated institutions. The fellowship aims to foster long-term collaborations and enhance the international research capacity of the academy. This fellowship supports established international researchers to undertake collaborative research projects at CAS institutes for durations typically ranging from two to nine months. It focuses on promoting joint scientific publications and the exchange of advanced methodologies and expertise. I undertook a mini-sabbatical in Summer 2019 at the Ningbo Institute of Materials Technology and Engineering, Chinese Academy of Sciences (\\url{http://english.nimte.cas.cn}).",
       "location": "Ningbo, China",
       "date": "2019"
     },
     {
       "award": "IEEE Fellow, IEEE Engineering in Medicine and Biology Society",
-      "description": "<em>“for contributions medical image analysis and image-based computational physiology”</em>. The IEEE Board of Directors confers the IEEE Grade of Fellow upon someone with an outstanding record of accomplishments in any of the IEEE fields of interest. The total number selected in any one year cannot exceed one-tenth of one percent of the total voting membership. IEEE Fellow is the highest grade of membership and is recognised by the technical community as a prestigious honour and an important career achievement.",
+      "description": "<em>``for contributions to medical image analysis and image-based computational physiology''</em>. The IEEE Board of Directors confers the IEEE Grade of Fellow upon someone with an outstanding record of accomplishments in any of the IEEE fields of interest. The total number selected in any one year cannot exceed one-tenth of one percent of the total voting membership. IEEE Fellow is the highest grade of membership and is recognised by the technical community as a prestigious honour and an important career achievement.",
       "location": "New York, USA",
       "date": "2014"
     },
@@ -450,7 +450,7 @@
     },
     {
       "award": "IEEE EMBS Early Career Award, IEEE Engineering in Medicine and Biology Society",
-      "description": "<em>\"for outstanding contributions to medical image computing, especially cardiovascular and cerebrovascular image analysis using model- and registration-based methods\"</em>. The award is presented annually to an individual who has made significant technological or theoretical contributions to the field of Biomedical Engineering within ten years of completing his or her highest degree. These contributions must represent meritorious achievement, exemplary technical contribution, or educational contribution to the field as evidenced by innovative research, design, product development, patents or publications.",
+      "description": "<em>``for outstanding contributions to medical image computing, especially cardiovascular and cerebrovascular image analysis using model- and registration-based methods''</em>. The award is presented annually to an individual who has made significant technological or theoretical contributions to the field of Biomedical Engineering within ten years of completing his or her highest degree. These contributions must represent meritorious achievement, exemplary technical contribution, or educational contribution to the field as evidenced by innovative research, design, product development, patents or publications.",
       "location": "New York, USA",
       "date": "2006"
     }
@@ -458,19 +458,19 @@
   "domestic_awards": [
     {
       "award": "Universitat Pompeu Fabra",
-      "description": "University Medal <em>\"for the Service as Dean of the Escuela Politècnica Superior\"</em>",
+      "description": "University Medal <em>``for the service as Dean of the Escuela Polit\\`ecnica Superior''</em>",
       "location": "Barcelona, Spain",
       "date": "2011"
     },
     {
       "award": "Universitat Pompeu Fabra",
-      "description": "Social Council Prize Teaching Initiative Prize to the Escuela Politécnica Superior. <em>“For the development of a mentorship program within the EnginyCat initiative to attract and retain engineering vocations”</em>. This prize was awarded to the Escuela Politécnica Superior of UPF whose Dean was Prof Frangi and was given by the maximum board of the University whose responsibility is to secure and oversee the social implication of the University and its community. The prize was awarded in 2010 <em>ex-aequo</em> with Verónica Moreno, Davinia Hernández and Vanessa Daza, members of the same leadership team.",
+      "description": "Social Council Prize Teaching Initiative Prize to the Escuela Polit\\'ecnica Superior. <em>``For the development of a mentorship program within the EnginyCat initiative to attract and retain engineering vocations''</em>. This prize was awarded to the Escuela Polit\\'ecnica Superior of UPF whose Dean was Prof Frangi and was given by the maximum board of the University whose responsibility is to secure and oversee the social implication of the University and its community. The prize was awarded in 2010 <em>ex-aequo</em> with Ver\\'onica Moreno, Davinia Hern\\'andez and Vanessa Daza, members of the same leadership team.",
       "location": "Barcelona, Spain",
       "date": "2010"
     },
     {
       "award": "Institució Catalana de Recerca i Estudis Avançats",
-      "description": "ICREA-Academia Prize. ICREA-Academia is a 5-year prize comprising a grant of 250k€, half of which is a personal salary complement, and the remainder is intended for UPF to cover a substantial teaching reduction during the 5-year period to focus and consolidate its own research programme. This prize was awarded in 2008 to 40 outstanding and full-time tenured academics from all disciplines of sciences who develop their activity.",
+      "description": "ICREA-Academia Prize. ICREA-Academia is a 5-year prize comprising a grant of 250k~EUR, half of which is a personal salary complement, and the remainder is intended for UPF to cover a substantial teaching reduction during the 5-year period to focus and consolidate its own research programme. This prize was awarded in 2008 to 40 outstanding and full-time tenured academics from all disciplines of sciences who develop their activity.",
       "location": "Barcelona, Spain",
       "date": "2009"
     },
@@ -482,13 +482,13 @@
     },
     {
       "award": "Universitat Pompeu Fabra",
-      "description": "Social Council Prize Knowledge Transfer Prize in the areas of Communication and Information Technologies. <em>“For performing applied research in the ICT domain, in computational analysis and modelling from biomedical images, with a demonstrated practical value through relevant international projects, including industrial involvement and applicability to the improvement in disease diagnosis and their treatment”</em>. This prize was awarded by the maximum board of the University whose responsibility is to secure and oversee the social engagement of the University and its community.",
+      "description": "Social Council Prize Knowledge Transfer Prize in the areas of Communication and Information Technologies. <em>``For performing applied research in the ICT domain, in computational analysis and modelling from biomedical images, with a demonstrated practical value through relevant international projects, including industrial involvement and applicability to the improvement in disease diagnosis and their treatment''</em>. This prize was awarded by the maximum board of the University whose responsibility is to secure and oversee the social engagement of the University and its community.",
       "location": "Barcelona, Spain",
       "date": "2008"
     },
     {
       "award": "Universitat Pompeu Fabra",
-      "description": "Social Council Prize Teaching Initiative Prize to the Escuela Politécnica Superior. <em>“For the Introduction to the University Course, introducing first-year students to the structure, organization and services of the School and the University; to the working methodology, to study techniques and problem-solving strategies and to their professional prospects”</em>. This prize was awarded to the Escuela Politécnica Superior of UPF whose Dean was Prof Frangi and was given by the maximum board of the University whose responsibility is to secure and oversee the social implication of the University and its community. The prize was awarded in 2008 ex-aequo with the Escuela de Ciencias de la Salud y de la Vida.",
+      "description": "Social Council Prize Teaching Initiative Prize to the Escuela Polit\\'ecnica Superior. <em>``For the Introduction to the University Course, introducing first-year students to the structure, organization and services of the School and the University; to the working methodology, to study techniques and problem-solving strategies and to their professional prospects''</em>. This prize was awarded to the Escuela Polit\\'ecnica Superior of UPF whose Dean was Prof Frangi and was given by the maximum board of the University whose responsibility is to secure and oversee the social implication of the University and its community. The prize was awarded in 2008 ex-aequo with the Escuela de Ciencias de la Salud y de la Vida.",
       "location": "Barcelona, Spain",
       "date": "2008"
     },
