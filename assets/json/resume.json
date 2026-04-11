@@ -11,7 +11,7 @@
   "current_positions": [
     {
       "position": "Bicentenary Turing Chair in Computational Medicine",
-      "institution": "The University of Manchester",
+      "institution": "<a href='https://www.manchester.ac.uk'>The University of Manchester</a>",
       "location": "Manchester, UK",
       "startDate": "2023-07",
       "highlights": [
@@ -22,20 +22,19 @@
       "url": "https://research.manchester.ac.uk/en/persons/alejandro-frangi"
     },
     {
-      "position": "Co-founder, Board Member, Chief Scientific Advisor",
-      "institution": "adsilico Ltd",
-      "location": "Leeds, UK",
-      "startDate": "2023-06",
+      "position": "Executive Director, Principal Investigator",
+      "institution": "<a href='https://www.uk-ceirsi-org'>UK CEiRSI — UK Centre of Excellence on in-silico Regulatory Science and Innovation</a>",
+      "location": "Manchester, UK",
+      "startDate": "2024-08",
       "highlights": [
-        "Provide scientific oversight and advice to the company Board, CEO, CTO, and CSO, ensuring the founding vision and scientific integrity are maintained across all research and development activities.",
-        "Offer early insights on the validity and viability of proposed projects and play an active advisory role throughout the R&amp;D lifecycle, contributing to the review and technical validation of information and establishing research standards.",
-        "Support recruiting high-quality technical and R&amp;D personnel and assist the CEO, CTO, and CSO in business development, understanding product requirements, and road mapping activities."
+        "Provide scientific oversight and leadership to a network of 85+ institutions across industry, academia, funders and government agencies.",
+        "Provide scientific advice to MHRA, HRA and NICE on in silico regulatory science."
       ],
       "url": ""
     },
     {
       "position": "Co-founder, Board Member, Chief Scientific Advisor",
-      "institution": "OculomeX Health Ltd",
+      "institution": "<a href='https://oculomex.com'>OculomeX Health Ltd</a>",
       "location": "Manchester, UK",
       "startDate": "2024-10",
       "highlights": [
@@ -47,7 +46,7 @@
   "past_positions": [
     {
       "position": "Bicentenary Turing Chair in Computational Medicine",
-      "institution": "The University of Manchester",
+      "institution": "<a href='https://www.manchester.ac.uk'>The University of Manchester</a>",
       "location": "Manchester, UK",
       "startDate": "2023-10",
       "highlights": [
@@ -55,6 +54,19 @@
       ],
       "url": "https://research.manchester.ac.uk/en/persons/alejandro-frangi",
       "endDate": "2025-10"
+    },
+    {
+      "position": "Co-founder, Board Member, Chief Scientific Advisor",
+      "institution": "<a href='https://adsilico.uk'>adsilico Ltd</a>",
+      "location": "Leeds, UK",
+      "startDate": "2023-06",
+      "highlights": [
+        "Provide scientific oversight and advice to the company Board, CEO, CTO, and CSO, ensuring the founding vision and scientific integrity are maintained across all research and development activities.",
+        "Offer early insights on the validity and viability of proposed projects and play an active advisory role throughout the R&amp;D lifecycle, contributing to the review and technical validation of information and establishing research standards.",
+        "Support recruiting high-quality technical and R&amp;D personnel and assist the CEO, CTO, and CSO in business development, understanding product requirements, and road mapping activities."
+      ],
+      "url": "",
+      "endDate": "2026-04"
     },
     {
       "position": "AI and Regulatory Science Advisor",
